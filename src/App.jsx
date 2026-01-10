@@ -42,6 +42,33 @@ function computeRoiFromRent(price, monthlyRent, fallback) {
 	return Math.round(roi * 100) / 100;
 }
 
+function PaymentPlanDisplay({ plan, dense = false }) {
+	if (!plan) return null;
+	const hasPercentages = Array.isArray(plan.percentages) && plan.percentages.length > 0;
+	const badgeClass =
+		'rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[11px] text-white shadow-inner shadow-black/20';
+	return (
+		<div className={`flex flex-wrap gap-2 ${dense ? 'text-xs' : 'text-sm'}`}>
+			{hasPercentages
+				? plan.percentages.map((step, idx) => (
+						<span key={`${step.label || 'step'}-${idx}`} className={badgeClass}>
+							{step.value}% {step.label || ''}
+						</span>
+				  ))
+				: null}
+			{typeof plan.installments === 'number' ? (
+				<span className={badgeClass}>عدد الدفعات: {plan.installments}</span>
+			) : null}
+			{typeof plan.total_price === 'number' ? (
+				<span className={badgeClass}>إجمالي: {formatPrice(plan.total_price)}</span>
+			) : null}
+			{plan.notes ? (
+				<span className={`${badgeClass} bg-amber-300/15 border-amber-200/30 text-amber-100`}>{plan.notes}</span>
+			) : null}
+		</div>
+	);
+}
+
 function LocationLink({ project, inline = false }) {
 	const label = project.location_details || project.stadium || 'الموقع غير متوفر';
 	if (project.map_url) {
@@ -194,6 +221,14 @@ function ProjectCard({ project, index }) {
 					<dt className="text-white/60">السعر</dt>
 					<dd className="font-semibold text-amber-200">{formatPrice(project.price_dirham)}</dd>
 				</div>
+				{project.payment_plan ? (
+					<div className="col-span-2">
+						<dt className="text-white/60">خطة الدفع</dt>
+						<dd className="font-semibold text-white">
+							<PaymentPlanDisplay plan={project.payment_plan} dense />
+						</dd>
+					</div>
+				) : null}
 				<div>
 					<dt className="text-white/60">المساحة الأساسية</dt>
 					<dd className="font-semibold">{formatArea(project.area)}</dd>
@@ -333,6 +368,14 @@ function ProjectDetails() {
 									{formatPrice(project.price_dirham)}
 								</p>
 							</div>
+							{project.payment_plan ? (
+								<div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white/80 shadow-inner shadow-black/30">
+									<p className="text-white/60 text-sm">خطة الدفع</p>
+									<div className="text-base font-semibold text-white">
+										<PaymentPlanDisplay plan={project.payment_plan} />
+									</div>
+								</div>
+							) : null}
 							<div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white/80 shadow-inner shadow-black/30">
 								<p className="text-white/60 text-sm">المساحة الكلية</p>
 								<p className="text-base font-semibold">{formatArea(project.total_area)}</p>
@@ -384,6 +427,12 @@ function ProjectDetails() {
 										</span>
 									))}
 								</div>
+							</div>
+						) : null}
+						{project.developer_story ? (
+							<div className="rounded-2xl border border-amber-200/20 bg-linear-to-br from-amber-300/10 via-white/5 to-white/5 px-4 py-3 text-white/80 shadow-inner shadow-black/30">
+								<p className="text-sm font-semibold text-amber-100 mb-1">قصة المطور</p>
+								<p className="text-sm leading-relaxed text-white/80">{project.developer_story}</p>
 							</div>
 						) : null}
 					</div>
@@ -452,6 +501,9 @@ function HomeLayout() {
 											<p className="text-sm text-white/60">المطور</p>
 											<p className="text-lg font-semibold text-white">{dev.name}</p>
 											{dev.name_en ? <p className="text-xs text-white/70">{dev.name_en}</p> : null}
+											{dev.founded_year ? (
+												<p className="text-[11px] text-white/60 mt-1">سنة التأسيس: {dev.founded_year}</p>
+											) : null}
 										</div>
 										{dev.contact_info?.website ? (
 											<a
@@ -478,7 +530,39 @@ function HomeLayout() {
 											</div>
 										) : null}
 									</div>
-									{dev.projects?.length ? (
+									{dev.story ? (
+										<div className="mt-3 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-white/75 shadow-inner shadow-black/20">
+											{dev.story}
+										</div>
+									) : null}
+									{dev.key_strengths?.length ? (
+										<div className="mt-3">
+											<p className="text-xs text-white/60 mb-1">ما يميز المطور</p>
+											<div className="flex flex-wrap gap-2">
+												{dev.key_strengths.map((s) => (
+													<span
+														key={s}
+														className="rounded-full border border-emerald-200/30 bg-emerald-200/10 px-3 py-1 text-[11px] text-emerald-50 shadow-inner shadow-black/20"
+													>
+														{s}
+													</span>
+												))}
+											</div>
+										</div>
+									) : null}
+									{dev.projects_locations?.length ? (
+										<div className="mt-3">
+											<p className="text-xs text-white/60 mb-1">مشاريع ومواقعها</p>
+											<div className="flex flex-col gap-1 text-[11px] text-white/75">
+												{dev.projects_locations.map((p) => (
+													<div key={`${dev.slug}-${p.name}`} className="flex flex-wrap gap-1">
+														<span className="rounded border border-white/10 bg-white/10 px-2 py-[2px]">{p.name}</span>
+														<span className="text-white/50">— {p.location}</span>
+													</div>
+												))}
+											</div>
+										</div>
+									) : dev.projects?.length ? (
 										<div className="mt-3">
 											<p className="text-xs text-white/60 mb-1">مشاريع مميزة</p>
 											<div className="flex flex-wrap gap-2">
@@ -494,8 +578,8 @@ function HomeLayout() {
 										</div>
 									) : null}
 									<div className="mt-3 text-xs text-emerald-200">
-										{dev.projects?.[0]
-											? `يتميز ${dev.name_en || dev.name} بمشاريع مثل ${dev.projects[0]}`
+										{dev.key_strengths?.[0]
+											? `يتميز ${dev.name_en || dev.name} بـ${dev.key_strengths[0]}`
 											: `مطور نشط في دبي.`}
 									</div>
 								</div>

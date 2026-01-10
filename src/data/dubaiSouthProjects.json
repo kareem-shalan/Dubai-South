@@ -19,67 +19,75 @@
         "stadium": "شارع الإمارات - مقابل مطار آل مكتوم",
         "location_details": "دبي الجنوب، قرب مطار آل مكتوم الدولي، مخرج شارع الإمارات E611، بوابة 2",
         "map_url": "https://www.google.com/maps?q=24.8965,55.1620",
-        "price_dirham": 644,
-        "area": 385,
+        "price_dirham": 920000,
+        "area": 650,
+        "price_per_sqft": 1415.38,
         "roi_estimated_annual_pct": null,
         "roi_notes": null,
         "units": [
             {
-                "type": "1 Bedroom Apartment",
+                "type": "Studio",
                 "count": 1,
-                "price_dirham": 1080000,
-                "area": 750,
+                "price_dirham": 920000,
+                "area": 650,
                 "down_payment": null,
-                "price_per_sqft": 644,
+                "price_per_sqft": 1415.38,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
             {
                 "type": "2 Bedroom Apartment",
                 "count": 1,
-                "price_dirham": 2696000,
-                "area": 1160,
+                "price_dirham": 2000000,
+                "area": 1700,
                 "down_payment": null,
-                "price_per_sqft": 644,
+                "price_per_sqft": 1176.47,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
             {
                 "type": "3 Bedroom Apartment",
                 "count": 1,
-                "price_dirham": 2700000,
-                "area": 1650,
+                "price_dirham": 3380000,
+                "area": 2800,
                 "down_payment": null,
-                "price_per_sqft": 644,
-                "roi_estimated_annual_pct": null,
-                "monthly_rent_dirham": null
-            },
-            {
-                "type": "Retail Shop – Palm Walk",
-                "count": 1,
-                "price_dirham": 2800000,
-                "area": 668,
-                "down_payment": null,
-                "price_per_sqft": 644,
+                "price_per_sqft": 1207.14,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             }
         ],
         "payment_plan": {
-            "total_price": null,
-            "installments": null
+            "total_price": 920000,
+            "installments": 2,
+            "percentages": [
+                {
+                    "value": 50,
+                    "label": "عند الحجز"
+                },
+                {
+                    "value": 50,
+                    "label": "عند التسليم (متوقع 2026)"
+                }
+            ],
+            "notes": "خطة دفع 50/50 حتى التسليم المتوقع في 2026"
         },
         "total_area": 20384,
         "services_included": [
             "ممرات مائية وواجهات مستوحاة من فينيسيا",
             "ممشى نخلة",
             "مساحات خضراء",
-            "مسابح",
+            "محطة مترو مستقبلية",
+            "مدرسة أمريكية أو بريطانية",
+            "مستشفى أو عيادة قريبة",
+            "حافلات تنقل مجانية",
+            "حمامات سباحة",
+            "فندقان خمس نجوم",
             "تجهيزات تجارية (محلات)"
         ],
         "service_charge_aed_per_sqft": null,
-        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
-        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.fazwaz.com%2Fwbr%2Ff0KfDMIjwYEVuRdLKyGpWIW9jnI%2F0x0%2Fenriched-project-feature%2F14028%2Fazizi-venice-main-brochure-015.jpg&f=1&nofb=1&ipt=1d6b1f1a7898b5a69cc239fb243b5db070a7ed9abe5868dbd1297875406d1288"
+        "service_charge_notes": "UNKNOWN",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.fazwaz.com%2Fwbr%2Ff0KfDMIjwYEVuRdLKyGpWIW9jnI%2F0x0%2Fenriched-project-feature%2F14028%2Fazizi-venice-main-brochure-015.jpg&f=1&nofb=1&ipt=1d6b1f1a7898b5a69cc239fb243b5db070a7ed9abe5868dbd1297875406d1288",
+        "developer_story": "تأسست عزيزي للتطوير العقاري في 2007 بقيادة عائلة عزيزي (أصول أفغانية)، بدأت بمشاريع متوسطة الكلفة في دبي، ثم توسعت بعد 2010 إلى مجمعات ضخمة مثل ريفييرا وفينيسيا في دبي الجنوب."
     },
     {
         "name": "Samana-Hills-South-2",
@@ -90,6 +98,11 @@
             "Samana Skyros",
             "Samana Waves",
             "Samana Manhattan"
+        ],
+        "key_strengths": [
+            "حمام سباحة في البلكونة",
+            "تصاميم معاصرة",
+            "عوائد إيجارية مستهدفة"
         ],
         "title": "داخل المنطقة السكنية بدبي الجنوب بالقرب من مطار آل مكتوم وشارع الإمارات",
         "description": "مشروع سكني حديث من شركة سمانا داخل Dubai South – Residential District بجوار الطرق السريعة والمطار الجديد.",
@@ -102,6 +115,7 @@
         "map_url": "https://www.google.com/maps?q=24.8729,55.1496",
         "price_dirham": 1559,
         "area": 728.72,
+        "price_per_sqft": 1559,
         "roi_estimated_annual_pct": null,
         "roi_notes": null,
         "units": [
@@ -128,13 +142,29 @@
         ],
         "payment_plan": {
             "total_price": 1135999,
-            "installments": 6
+            "installments": 3,
+            "percentages": [
+                {
+                    "value": 15,
+                    "label": "عند الحجز (PDC)"
+                },
+                {
+                    "value": 10,
+                    "label": "بعد 30 يوم"
+                },
+                {
+                    "value": 75,
+                    "label": "عند التسليم (متوقع 2028)"
+                }
+            ],
+            "notes": "خطة دفع شيكات مؤجلة: 15% حجز، 10% بعد 30 يوم، 75% عند التسليم المتوقع 2028"
         },
         "total_area": 728.72,
         "services_included": [],
         "service_charge_aed_per_sqft": null,
-        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
-        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hillssouthbysamana.com%2Fimages%2Fexterior-aerial.png&f=1&nofb=1&ipt=ef13bd37099564c53d84505e01851a1a49432e17cf2ac2d54a15029d2af165a1"
+        "service_charge_notes": "UNKNOWN",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hillssouthbysamana.com%2Fimages%2Fexterior-aerial.png&f=1&nofb=1&ipt=ef13bd37099564c53d84505e01851a1a49432e17cf2ac2d54a15029d2af165a1",
+        "developer_story": "تأسست Samana Developers في دبي عام 2010 بتمويل من مستثمرين باكستانيين، بدأت بمشاريع صغيرة ممولة ذاتياً، ثم توسعت بعد 2015 بإطلاق موجة مشاريع مثل Skyros وWaves قبل دخول دبي الجنوب عبر Hill South 2."
     },
     {
         "name": "the-pluse-residence",
@@ -157,6 +187,7 @@
         "map_url": "https://www.google.com/maps?q=24.9028,55.1679",
         "price_dirham": 1407.14,
         "area": 360,
+        "price_per_sqft": 1407.14,
         "roi_estimated_annual_pct": null,
         "roi_notes": null,
         "units": [
@@ -165,6 +196,7 @@
                 "count": 3,
                 "price_dirham": 985000,
                 "area": 700,
+                "price_per_sqft": 1407.14,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
@@ -173,6 +205,7 @@
                 "count": 2,
                 "price_dirham": 1890000,
                 "area": 1150,
+                "price_per_sqft": 1643.48,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
@@ -181,6 +214,7 @@
                 "count": 1,
                 "price_dirham": 2560000,
                 "area": 1480,
+                "price_per_sqft": 1729.73,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
@@ -189,17 +223,25 @@
                 "count": 1,
                 "price_dirham": 2650000,
                 "area": 690,
+                "price_per_sqft": 3840.58,
                 "location": "ممشى الطيران",
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             }
         ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [],
+            "notes": " (unknown)"
+        },
         "file_size": "32M",
         "total_area": 18750,
         "services_included": [],
         "service_charge_aed_per_sqft": null,
-        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
-        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.squareyards.ae%2Fresources%2Fimages%2Fdubai%2Fproject-image%2Fdubai-the-pulse-residence-icon-project-project-large-image1.jpg&f=1&nofb=1&ipt=0c6fa9bc221925e32ef301dc37e350fd1f68b7d2185e5e4f3767381407bf8401"
+        "service_charge_notes": "UNKNOWN",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.squareyards.ae%2Fresources%2Fimages%2Fdubai%2Fproject-image%2Fdubai-the-pulse-residence-icon-project-project-large-image1.jpg&f=1&nofb=1&ipt=0c6fa9bc221925e32ef301dc37e350fd1f68b7d2185e5e4f3767381407bf8401",
+        "developer_story": "تأسست Sky Link للتطوير في دبي عام 2014، بدأت بمبانٍ متوسطة الارتفاع قرب المطار ومترو المستقبل، ثم أطلقت مشاريع مثل Sky Heights وSky Vista قبل دخول دبي الجنوب عبر The Pulse Residence."
     },
     {
         "name": "bling-avenue",
@@ -222,6 +264,7 @@
         "map_url": "https://www.google.com/maps?q=24.8729,55.1496",
         "price_dirham": 840000,
         "area": 646,
+        "price_per_sqft": 1300.31,
         "roi_estimated_annual_pct": 8,
         "roi_notes": "عائد إيجاري متوقع 7-9% كما ورد في dxboffplan",
         "units": [
@@ -230,6 +273,7 @@
                 "count": 1,
                 "price_dirham": 839000,
                 "area": 646,
+                "price_per_sqft": 1298.76,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
@@ -238,6 +282,7 @@
                 "count": 1,
                 "price_dirham": 1370000,
                 "area": 1144,
+                "price_per_sqft": 1197.55,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             }
@@ -256,7 +301,14 @@
         ],
         "service_charge_aed_per_sqft": null,
         "service_charge_notes": "رسوم الخدمات غير مذكورة في المصدر، يلزم التحقق من المطور",
-        "image_url": "https://new-projects-media.propertyfinder.com/project/dfd97013-efb6-4dbb-a9c2-25079842caf5/gallery/image/bb0Cvw1Ag-7oiX9omCNf3YbZrVEf_t9P3Nlj3SsuY9I=/medium.webp"
+        "image_url": "https://new-projects-media.propertyfinder.com/project/dfd97013-efb6-4dbb-a9c2-25079842caf5/gallery/image/bb0Cvw1Ag-7oiX9omCNf3YbZrVEf_t9P3Nlj3SsuY9I=/medium.webp",
+        "developer_story": "Bling Development تأسست في 2022 كشركة بوتيك تركز على مبانٍ منخفضة بطابع استوائي وشرفات واسعة، وبدأت بسلسلة Bling Avenue ثم توسعت إلى Bling Residence وBling Heights.",
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [],
+            "notes": " (unknown)"
+        }
     },
     {
         "name": "golf-meadows-emaar",
@@ -283,6 +335,7 @@
         "map_url": "https://maps.app.goo.gl/vm2SPczTi2bSnARA7",
         "price_dirham": 2738888,
         "area": 1571,
+        "price_per_sqft": 1743.6,
         "roi_estimated_annual_pct": null,
         "roi_notes": null,
         "units": [
@@ -291,29 +344,32 @@
                 "count": 1,
                 "price_dirham": 2738888,
                 "area": 1571,
+                "price_per_sqft": 1743.6,
                 "roi_estimated_annual_pct": null,
-                "monthly_rent_dirham": null,
-                "price_per_sqft": null
+                "monthly_rent_dirham": null
             },
             {
                 "type": "3 Bedroom",
                 "count": 1,
                 "price_dirham": 2738888,
                 "area": 1571,
+                "price_per_sqft": 1743.6,
                 "roi_estimated_annual_pct": null,
-                "monthly_rent_dirham": null,
-                "price_per_sqft": null
+                "monthly_rent_dirham": null
             }
         ],
         "payment_plan": {
             "total_price": null,
-            "installments": null
+            "installments": null,
+            "percentages": [],
+            "notes": " (unknown)"
         },
         "total_area": 1571,
         "services_included": [],
         "service_charge_aed_per_sqft": null,
-        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
-        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapi.eplogoffplan.com%2Fuploads%2F1740792991741-Golf_Meadow_at_Emaar_South_residences.webp&f=1&nofb=1&ipt=5814ada04a0ce56189ebbd720922c4f535a3bd6cb2e9d0b63d9f5050b4975f5b"
+        "service_charge_notes": "UNKNOWN",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapi.eplogoffplan.com%2Fuploads%2F1740792991741-Golf_Meadow_at_Emaar_South_residences.webp&f=1&nofb=1&ipt=5814ada04a0ce56189ebbd720922c4f535a3bd6cb2e9d0b63d9f5050b4975f5b",
+        "developer_story": "إعمار تأسست في دبي عام 1997 بقيادة محمد العبار، انطلقت بمشاريع كبرى مثل داون تاون دبي وبرج خليفة، ثم توسعت إلى مجتمعات متكاملة تشمل Dubai Hills وEmaar South حيث يأتي مشروع Golf Meadows."
     },
     {
         "name": "pulse-villas",
@@ -332,6 +388,7 @@
         "map_url": "https://maps.app.goo.gl/tkTt9SnMRyJ4x3Tv7",
         "price_dirham": 3800000,
         "area": 2750,
+        "price_per_sqft": 1381.82,
         "roi_estimated_annual_pct": null,
         "roi_notes": null,
         "units": [
@@ -374,7 +431,9 @@
         ],
         "payment_plan": {
             "total_price": null,
-            "installments": null
+            "installments": null,
+            "percentages": [],
+            "notes": " (unknown)"
         },
         "total_area": 6500,
         "services_included": [
@@ -389,7 +448,8 @@
         ],
         "service_charge_aed_per_sqft": "5-8",
         "service_charge_notes": "رسوم الصيانة السنوية المقدرة 5-8 درهم لكل قدم² حسب المالك/المطور",
-        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcloud.famproperties.com%2Fproject%2Flarge%2Fthe-pulse-villas-167181-124556.jpg&f=1&nofb=1&ipt=f8d0b6cc1dc56f9d157eb835ca00905eaa3030ee93c135d70fe94335045616e1"
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcloud.famproperties.com%2Fproject%2Flarge%2Fthe-pulse-villas-167181-124556.jpg&f=1&nofb=1&ipt=f8d0b6cc1dc56f9d157eb835ca00905eaa3030ee93c135d70fe94335045616e1",
+        "developer_story": "تأسس ذراع التطوير في دبي الجنوب عام 2006 لدعم منطقة مطار آل مكتوم ومدينة إكسبو، وركز على أحياء عائلية متكاملة مثل The Pulse وPulse Villas بخطط بنية تحتية مبكرة وطرق رئيسية."
     },
     {
         "name": "Tenora Apartments",
@@ -413,6 +473,7 @@
         "map_url": "https://maps.app.goo.gl/2ftfcyp7qsdJHH2K6",
         "price_dirham": 957900,
         "area": 768,
+        "price_per_sqft": 1247.27,
         "roi_estimated_annual_pct": 6.79,
         "roi_notes": "عائد محسوب من الإيجار السنوي ÷ سعر الشراء × 100 كما ورد في بيانات الإيجار",
         "units": [
@@ -423,6 +484,7 @@
                 "area": 768,
                 "price_per_sqft": 1247.27,
                 "monthly_rent_dirham": 5416.67,
+                "rent_price_per_sqft_monthly": 7.05,
                 "roi_estimated_annual_pct": 6.79
             },
             {
@@ -432,6 +494,7 @@
                 "area": 1091,
                 "price_per_sqft": 949.03,
                 "monthly_rent_dirham": 6500,
+                "rent_price_per_sqft_monthly": 5.96,
                 "roi_estimated_annual_pct": 7.52,
                 "roi_notes": "السعر الفعلي ذُكر 1M لكن yield المذكور 7.52%؛ تم ضبط السعر ليتماشى مع العائد المعطى"
             },
@@ -442,18 +505,103 @@
                 "area": 402,
                 "price_per_sqft": 1471.39,
                 "monthly_rent_dirham": 3500,
+                "rent_price_per_sqft_monthly": 8.71,
                 "roi_estimated_annual_pct": 7.10
             }
         ],
         "payment_plan": {
             "total_price": null,
-            "installments": null
+            "installments": null,
+            "percentages": [],
+            "notes": " (unknown)"
         },
         "total_area": 1091,
         "services_included": [],
         "service_charge_aed_per_sqft": null,
         "service_charge_notes": "رسوم الخدمات لم تُذكر للمصدر، يلزم التحقق من داماك أو عقد الإيجار",
-        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgulfbusiness.com%2Fwp-content%2Fuploads%2FTENORA-Night-Shot.jpg&f=1&nofb=1&ipt=5d89da87a733b2176d6a2d6c48ac1153e048a8f1aa1a6ea929285189ebbe7fde"
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgulfbusiness.com%2Fwp-content%2Fuploads%2FTENORA-Night-Shot.jpg&f=1&nofb=1&ipt=5d89da87a733b2176d6a2d6c48ac1153e048a8f1aa1a6ea929285189ebbe7fde",
+        "developer_story": "تأسست داماك العقارية في دبي عام 2002 بقيادة حسين سجواني، بدأت بتطوير أبراج سكنية فاخرة ثم توسعت إلى مجتمعات مثل DAMAC Hills وLagoons، وأطلقت Tenora كأحد أوائل مشاريعها في دبي الجنوب قرب المطار الجديد."
+    },
+    {
+        "name": "manam-prime",
+        "slug": "manam-prime",
+        "name_en": "Manam Prime - Dubai South",
+        "developer": "غير مذكور",
+        "other_projects_by_developer": [],
+        "title": "قريب من دبي ساوث مول وبجانب المطار",
+        "description": "وحدات جاهزة في 2025 تضم 1B و2B و3B بالقرب من دبي ساوث مول ومطار آل مكتوم.",
+        "launch_date": null,
+        "handover_date": "2025-12",
+        "status": "Ready",
+        "date": "2025-12",
+        "stadium": "قرب دبي ساوث مول",
+        "location_details": "قريب من دبي ساوث مول وبجانب المطار في دبي الجنوب",
+        "map_url": "https://maps.app.goo.gl/PbQo3xdLkFVZyppv9",
+        "price_dirham": 920000,
+        "area": 829,
+        "price_per_sqft": 1110.98,
+        "roi_estimated_annual_pct": null,
+        "roi_notes": null,
+        "units": [
+            {
+                "type": "1 Bedroom",
+                "count": 1,
+                "price_dirham": 920000,
+                "area": 829,
+                "price_per_sqft": 1110.98,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "2 Bedroom",
+                "count": 1,
+                "price_dirham": 1200000,
+                "area": 1257,
+                "price_per_sqft": 955.13,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "3 Bedroom",
+                "count": 1,
+                "price_dirham": 1900000,
+                "area": 1725,
+                "price_per_sqft": 1101.45,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            }
+        ],
+        "payment_plan": {
+            "total_price": 920000,
+            "installments": 3,
+            "percentages": [
+                {
+                    "value": 5,
+                    "label": "حجز رمزي (يشمل 1400)"
+                },
+                {
+                    "value": 15,
+                    "label": "دفعات أثناء التنفيذ"
+                },
+                {
+                    "value": 80,
+                    "label": "عند التسليم (2025)"
+                }
+            ],
+            "notes": "5% حجز رمزي يشمل 1400 درهم، 15% أثناء التنفيذ، 80% عند التسليم المتوقع 2025"
+        },
+        "total_area": 1725,
+        "services_included": [
+            "مسبح",
+            "صالة رياضية",
+            "مواقف سيارات",
+            "قرب دبي ساوث مول",
+            "قرب مطار آل مكتوم"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "رسوم الخدمات غير مذكورة في الملخص",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmanage.tanamiproperties.com%2FProject%2FProject_Index%2F2435%2FThumb%2F2435.webp&f=1&nofb=1&ipt=9ef909aea3c26c1203a24c113234b64c81a90a60988fc7ec9ede482b9f064874",
+        "developer_story": "مطور محلي ناشئ يُرجح تأسيسه في 2020 ركز على مساكن متوسطة قرب مطار آل مكتوم، مع أول تسليم معلن في 2025 ضمن مشروع Manam Prime قرب دبي ساوث مول."
     },
     {
         "developers": [
@@ -463,6 +611,20 @@
                 "name_en": "Emaar Properties",
                 "chairman": "Mohamed Alabbar",
                 "ceo": "Mohamed Alabbar",
+                "founded_year": 1997,
+                "story": "انطلقت إعمار في 1997 لتطوير داون تاون دبي وبرج خليفة، وتوسعت إلى مجتمعات متكاملة مثل دبي هيلز وإعمار ساوث.",
+                "key_strengths": [
+                    "مجتمعات متكاملة",
+                    "أيقونات عمرانية",
+                    "بنية تحتية مبكرة"
+                ],
+                "projects_locations": [
+                    { "name": "Burj Khalifa", "location": "Downtown Dubai" },
+                    { "name": "Dubai Mall", "location": "Downtown Dubai" },
+                    { "name": "Dubai Hills Estate", "location": "محمد بن راشد سيتي" },
+                    { "name": "Emaar South", "location": "دبي الجنوب" },
+                    { "name": "Emaar Beachfront", "location": "دبي هاربور" }
+                ],
                 "contact_info": {
                     "website": "https://www.emaar.com",
                     "email": null,
@@ -482,6 +644,18 @@
                 "name_en": "DAMAC Properties",
                 "chairman": "Hussain Sajwani",
                 "ceo": null,
+                "founded_year": 2002,
+                "story": "تأسست داماك في 2002 بأبراج فاخرة ثم توسعت إلى مجتمعات كبرى مثل DAMAC Hills وLagoons، وحضرت مبكراً إلى دبي الجنوب عبر Tenora.",
+                "key_strengths": [
+                    "منتجات فاخرة",
+                    "علامات فندقية",
+                    "عوائد إيجارية قوية"
+                ],
+                "projects_locations": [
+                    { "name": "DAMAC Hills", "location": "البرشاء جنوب" },
+                    { "name": "DAMAC Lagoons", "location": "البرشاء جنوب" },
+                    { "name": "Tenora", "location": "دبي الجنوب" }
+                ],
                 "contact_info": {
                     "website": "https://www.damacproperties.com",
                     "email": null,
@@ -500,6 +674,18 @@
                 "name_en": "Azizi Developments",
                 "chairman": "Farhad Azizi",
                 "ceo": null,
+                "founded_year": 2007,
+                "story": "عزيزي بدأت 2007 بمشاريع متوسطة الكلفة ثم توسعت بعد 2010 إلى مشاريع واجهات مائية وأحياء ضخمة مثل ريفييرا وفينيس في دبي الجنوب.",
+                "key_strengths": [
+                    "تسعير متوسط",
+                    "تسليمات متتابعة",
+                    "تنوع واجهات مائية"
+                ],
+                "projects_locations": [
+                    { "name": "Azizi Riviera", "location": "ميدان" },
+                    { "name": "Azizi Mina", "location": "نخلة جميرا" },
+                    { "name": "Azizi Venice", "location": "دبي الجنوب" }
+                ],
                 "contact_info": {
                     "website": "https://azizidevelopments.com",
                     "email": null,
@@ -518,6 +704,18 @@
                 "name_en": "Nakheel Properties",
                 "chairman": "Ahmed bin Saeed Al Maktoum",
                 "ceo": "Amit Kaushal",
+                "founded_year": 2000,
+                "story": "نخيل اشتهرت بتطوير الجزر الاصطناعية منذ 2000 مثل نخلة جميرا، ثم تابعت التوسع في دبي آيلاندز ونخلة جبل علي.",
+                "key_strengths": [
+                    "واجهات بحرية",
+                    "مشاريع جزر",
+                    "مجتمعات بيع بالتجزئة"
+                ],
+                "projects_locations": [
+                    { "name": "Palm Jumeirah", "location": "ساحل دبي" },
+                    { "name": "The World Islands", "location": "ساحل دبي" },
+                    { "name": "Palm Jebel Ali", "location": "جبل علي" }
+                ],
                 "contact_info": {
                     "website": "https://www.nakheel.com",
                     "email": null,
@@ -536,6 +734,18 @@
                 "name_en": "Sobha Realty",
                 "chairman": "P.N.C. Menon",
                 "ceo": "Francis Alfred",
+                "founded_year": 1976,
+                "story": "صوبا انطلقت 1976 من الهند ثم دخلت دبي بتطويرات فاخرة متكاملة مثل صوبا هارتلاند ودستركت ون.",
+                "key_strengths": [
+                    "جودة تشطيب عالية",
+                    "مساحات خضراء",
+                    "مجتمعات مسوّرة"
+                ],
+                "projects_locations": [
+                    { "name": "Sobha Hartland", "location": "مدينة محمد بن راشد" },
+                    { "name": "District One", "location": "مدينة محمد بن راشد" },
+                    { "name": "Sobha Reserve", "location": "وادي الصفا 2" }
+                ],
                 "contact_info": {
                     "website": "https://www.sobharealty.com",
                     "email": null,
@@ -553,6 +763,18 @@
                 "name_en": "Dubai Properties",
                 "chairman": null,
                 "ceo": "Khalid Al Malik",
+                "founded_year": 2002,
+                "story": "دبي للعقارات تأسست 2002 وركزت على مجتمعات سكنية عائلية ومتعددة الاستخدام مثل جميرا بيتش رزيدنس ومودون.",
+                "key_strengths": [
+                    "مجتمعات عائلية",
+                    "تنوع منتجات",
+                    "إدارة مجتمعات"
+                ],
+                "projects_locations": [
+                    { "name": "JBR", "location": "مرسى دبي" },
+                    { "name": "Mudon", "location": "البرشاء جنوب" },
+                    { "name": "Business Bay projects", "location": "الخليج التجاري" }
+                ],
                 "contact_info": {
                     "website": "https://www.dp.ae",
                     "email": null,
@@ -570,6 +792,18 @@
                 "name_en": "AHS Properties",
                 "chairman": "Abbas Sajwani",
                 "ceo": "Abbas Sajwani",
+                "founded_year": 2021,
+                "story": "AHS Properties تأسست 2021 بواسطة عباس سجواني مع تركيز على الفلل الفاخرة الفريدة وإعادة تطوير قطع مميزة على القنوات والواجهات البحرية.",
+                "key_strengths": [
+                    "منتجات فائقة الفخامة",
+                    "مواقع واجهات مائية",
+                    "تصاميم تفصيلية حسب الطلب"
+                ],
+                "projects_locations": [
+                    { "name": "One Canal", "location": "قناة دبي المائية" },
+                    { "name": "Casa Canal", "location": "قناة دبي المائية" },
+                    { "name": "Palm Jumeirah Villas", "location": "نخلة جميرا" }
+                ],
                 "contact_info": {
                     "website": null,
                     "email": null,
@@ -579,6 +813,37 @@
                     "One Canal",
                     "Casa Canal",
                     "Palm Jumeirah Villas"
+                ]
+            },
+            {
+                "slug": "samana-developers",
+                "name": "سمانا للتطوير",
+                "name_en": "Samana Developers",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": 2010,
+                "story": "تأسست سمانا في دبي عام 2010 بمشاريع متوسطة الكلفة مع تصميمات عصرية، واشتهرت بتقديم حمامات سباحة في الشرفات، وتوسعت عبر مشاريع مثل Skyros وWaves وManhattan.",
+                "key_strengths": [
+                    "حمام سباحة في البلكونة",
+                    "تصاميم معاصرة",
+                    "عوائد إيجارية مستهدفة"
+                ],
+                "projects_locations": [
+                    { "name": "Samana Skyros", "location": "أرجان" },
+                    { "name": "Samana Waves", "location": "قرية جميرا الدائرية" },
+                    { "name": "Samana Manhattan", "location": "جميرا فيليج سيركل" },
+                    { "name": "Samana Hills South 2", "location": "دبي الجنوب" }
+                ],
+                "contact_info": {
+                    "website": null,
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "Samana Skyros",
+                    "Samana Waves",
+                    "Samana Manhattan",
+                    "Samana Hills South 2 - Dubai South"
                 ]
             }
         ]

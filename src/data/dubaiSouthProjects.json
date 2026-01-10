@@ -1,0 +1,726 @@
+[
+    {
+        "name": "Azizi-Venice",
+        "slug": "فينيسيا العزيزية - دبي الجنوب",
+        "name_en": "Azizi-Venice - Dubai South",
+        "developer": "عزيزي للتطوير العقاري",
+        "other_projects_by_developer": [
+            "Azizi Riviera",
+            "Azizi Mina",
+            "Azizi Creek Views",
+            "Azizi Beach Oasis"
+        ],
+        "title": "مقابل مطار آل مكتوم الجديد وعلى شارع الإمارات بالقرب من نخلة جبل علي",
+        "description": "مجمع سكني بواجهات مائية مستوحاة من فينيسيا مع مساحات خضراء وممشى نخلة قريب.",
+        "launch_date": "2025-06",
+        "handover_date": "2026-12",
+        "status": "off plan",
+        "date": "2026-12",
+        "stadium": "شارع الإمارات - مقابل مطار آل مكتوم",
+        "location_details": "دبي الجنوب، قرب مطار آل مكتوم الدولي، مخرج شارع الإمارات E611، بوابة 2",
+        "map_url": "https://www.google.com/maps?q=24.8965,55.1620",
+        "price_dirham": 644,
+        "area": 385,
+        "roi_estimated_annual_pct": null,
+        "roi_notes": null,
+        "units": [
+            {
+                "type": "1 Bedroom Apartment",
+                "count": 1,
+                "price_dirham": 1080000,
+                "area": 750,
+                "down_payment": null,
+                "price_per_sqft": 644,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "2 Bedroom Apartment",
+                "count": 1,
+                "price_dirham": 2696000,
+                "area": 1160,
+                "down_payment": null,
+                "price_per_sqft": 644,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "3 Bedroom Apartment",
+                "count": 1,
+                "price_dirham": 2700000,
+                "area": 1650,
+                "down_payment": null,
+                "price_per_sqft": 644,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "Retail Shop – Palm Walk",
+                "count": 1,
+                "price_dirham": 2800000,
+                "area": 668,
+                "down_payment": null,
+                "price_per_sqft": 644,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null
+        },
+        "total_area": 20384,
+        "services_included": [
+            "ممرات مائية وواجهات مستوحاة من فينيسيا",
+            "ممشى نخلة",
+            "مساحات خضراء",
+            "مسابح",
+            "تجهيزات تجارية (محلات)"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.fazwaz.com%2Fwbr%2Ff0KfDMIjwYEVuRdLKyGpWIW9jnI%2F0x0%2Fenriched-project-feature%2F14028%2Fazizi-venice-main-brochure-015.jpg&f=1&nofb=1&ipt=1d6b1f1a7898b5a69cc239fb243b5db070a7ed9abe5868dbd1297875406d1288"
+    },
+    {
+        "name": "Samana-Hills-South-2",
+        "slug": "سمانا هيلز - دبي الجنوب",
+        "name_en": "Samana Hills South 2 - Dubai South",
+        "developer": "Samana Developers",
+        "other_projects_by_developer": [
+            "Samana Skyros",
+            "Samana Waves",
+            "Samana Manhattan"
+        ],
+        "title": "داخل المنطقة السكنية بدبي الجنوب بالقرب من مطار آل مكتوم وشارع الإمارات",
+        "description": "مشروع سكني حديث من شركة سمانا داخل Dubai South – Residential District بجوار الطرق السريعة والمطار الجديد.",
+        "launch_date": "2024-01",
+        "handover_date": "2028-12",
+        "status": "off plan",
+        "date": "2028-12",
+        "stadium": "دبي الجنوب - المنطقة السكنية (المنطقة الجنوبية 2)",
+        "location_details": "دبي الجنوب، المنطقة السكنية – الجنوب 2، بجوار مطار آل مكتوم، قرب شارع الإمارات (E611) وطريق إكسبو (E77)",
+        "map_url": "https://www.google.com/maps?q=24.8729,55.1496",
+        "price_dirham": 1559,
+        "area": 728.72,
+        "roi_estimated_annual_pct": null,
+        "roi_notes": null,
+        "units": [
+            {
+                "type": "1 Bedroom Apartment",
+                "count": 1,
+                "price_dirham": 1135999,
+                "area": 728.72,
+                "down_payment": 197999,
+                "price_per_sqft": 1559,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "2 Bedroom Apartment",
+                "count": 2,
+                "price_dirham": 1305000,
+                "area": 863.37,
+                "down_payment": 289999,
+                "price_per_sqft": 1559,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            }
+        ],
+        "payment_plan": {
+            "total_price": 1135999,
+            "installments": 6
+        },
+        "total_area": 728.72,
+        "services_included": [],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hillssouthbysamana.com%2Fimages%2Fexterior-aerial.png&f=1&nofb=1&ipt=ef13bd37099564c53d84505e01851a1a49432e17cf2ac2d54a15029d2af165a1"
+    },
+    {
+        "name": "the-pluse-residence",
+        "slug": "ذا بلس رزيدنس - دبي الجنوب",
+        "name_en": "The Pluse Residence - Dubai South",
+        "developer": "سكاي لينك للتطوير",
+        "other_projects_by_developer": [
+            "Sky Link Residences",
+            "Sky Heights",
+            "Sky Vista"
+        ],
+        "title": "إطلالات قريبة من المطار الجديد وعلى محاور النقل الرئيسية",
+        "description": "شقق عصرية بخدمات فندقية خفيفة ومواقع ربط مباشرة نحو المطار والمترو المستقبلي.",
+        "launch_date": "2025-11",
+        "handover_date": "2026-09",
+        "status": "Ready",
+        "date": "2026-09",
+        "stadium": "دوران المطار",
+        "location_details": "دبي الجنوب، محور المطار، مقابل مدخل الشحن الجنوبي، قرب شارع الشيخ محمد بن زايد",
+        "map_url": "https://www.google.com/maps?q=24.9028,55.1679",
+        "price_dirham": 1407.14,
+        "area": 360,
+        "roi_estimated_annual_pct": null,
+        "roi_notes": null,
+        "units": [
+            {
+                "type": "غرفة",
+                "count": 3,
+                "price_dirham": 985000,
+                "area": 700,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "غرفتين",
+                "count": 2,
+                "price_dirham": 1890000,
+                "area": 1150,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "3 غرف",
+                "count": 1,
+                "price_dirham": 2560000,
+                "area": 1480,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "محلات",
+                "count": 1,
+                "price_dirham": 2650000,
+                "area": 690,
+                "location": "ممشى الطيران",
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            }
+        ],
+        "file_size": "32M",
+        "total_area": 18750,
+        "services_included": [],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.squareyards.ae%2Fresources%2Fimages%2Fdubai%2Fproject-image%2Fdubai-the-pulse-residence-icon-project-project-large-image1.jpg&f=1&nofb=1&ipt=0c6fa9bc221925e32ef301dc37e350fd1f68b7d2185e5e4f3767381407bf8401"
+    },
+    {
+        "name": "bling-avenue",
+        "slug": "بلينغ أفنيو 1 - دبي الجنوب",
+        "name_en": "Bling Avenue 1 - Dubai South",
+        "developer": "Bling Development",
+        "other_projects_by_developer": [
+            "Bling Avenue 2",
+            "Bling Residence",
+            "Bling Heights"
+        ],
+        "title": "شقق 1 و 2 غرفة في دبي الجنوب - تسليم 2026 الربع الثاني",
+        "description": "شقق منخفضة الارتفاع بعدد 40 وحدة بتصميم استوائي وشرفات واسعة، تطوير من Bling Development مع تسليم متوقع في الربع الثاني 2026.",
+        "launch_date": "2024-06",
+        "handover_date": "2026-06",
+        "status": "off plan",
+        "date": "2026-06",
+        "stadium": "دبي الجنوب – الحي السكني (جنوب 2)",
+        "location_details": "دبي الجنوب، الحي السكني – جنوب 2، بالقرب من مطار آل مكتوم الدولي، قريب من شارع الإمارات (E611) وطريق إكسبو (E77)",
+        "map_url": "https://www.google.com/maps?q=24.8729,55.1496",
+        "price_dirham": 840000,
+        "area": 646,
+        "roi_estimated_annual_pct": 8,
+        "roi_notes": "عائد إيجاري متوقع 7-9% كما ورد في dxboffplan",
+        "units": [
+            {
+                "type": "1 غرفة",
+                "count": 1,
+                "price_dirham": 839000,
+                "area": 646,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "2 غرف",
+                "count": 1,
+                "price_dirham": 1370000,
+                "area": 1144,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            }
+        ],
+        "file_size": "—",
+        "total_area": 14000,
+        "services_included": [
+            "Rooftop Infinity Pool",
+            "Stylish Cabanas",
+            "State-of-the-Art Gym",
+            "Yoga Spaces",
+            "Kids’ Pool & Play Area",
+            "BBQ Area",
+            "Zen Garden & Relaxation Areas",
+            "Landscaped Promenade"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "رسوم الخدمات غير مذكورة في المصدر، يلزم التحقق من المطور",
+        "image_url": "https://new-projects-media.propertyfinder.com/project/dfd97013-efb6-4dbb-a9c2-25079842caf5/gallery/image/bb0Cvw1Ag-7oiX9omCNf3YbZrVEf_t9P3Nlj3SsuY9I=/medium.webp"
+    },
+    {
+        "name": "golf-meadows-emaar",
+        "slug": "جولف ميدوز",
+        "name_en": "Golf Meadows",
+        "developer": "Emaar",
+        "other_projects_by_developer": [
+            "Golf",
+            "Point Acres",
+            "Vista",
+            "Terra",
+            "A",
+            "T HD Khr",
+            "IHJ"
+        ],
+        "title": "وحدات سكنية تشمل استوديو و 3 غرف",
+        "description": "مشروع سكني من إعمار يضم استوديو ووحدات 3 غرف بمساحة 1571 قدم².",
+        "launch_date": null,
+        "handover_date": "2029-09",
+        "status": "Ready",
+        "date": null,
+        "stadium": null,
+        "location_details": "   — داخل مجتمع دبي ساوث، بجوار ملعب الجولف و قريب من مطار آل مكتوم الدول، مدينة إكسبو دبي، وعلى شبكة الطرق الرئيسية: شارع الإمارات وشارع الشيخ محمد بن زايد",
+        "map_url": "https://maps.app.goo.gl/vm2SPczTi2bSnARA7",
+        "price_dirham": 2738888,
+        "area": 1571,
+        "roi_estimated_annual_pct": null,
+        "roi_notes": null,
+        "units": [
+            {
+                "type": "Studio",
+                "count": 1,
+                "price_dirham": 2738888,
+                "area": 1571,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null,
+                "price_per_sqft": null
+            },
+            {
+                "type": "3 Bedroom",
+                "count": 1,
+                "price_dirham": 2738888,
+                "area": 1571,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null,
+                "price_per_sqft": null
+            }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null
+        },
+        "total_area": 1571,
+        "services_included": [],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "لم يتم التحقق من رسوم الخدمات والمرافق بعد",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapi.eplogoffplan.com%2Fuploads%2F1740792991741-Golf_Meadow_at_Emaar_South_residences.webp&f=1&nofb=1&ipt=5814ada04a0ce56189ebbd720922c4f535a3bd6cb2e9d0b63d9f5050b4975f5b"
+    },
+    {
+        "name": "pulse-villas",
+        "slug": "Pulse Villas",
+        "name_en": "Pulse Villas",
+        "developer": "Dubai South",
+        "other_projects_by_developer": [],
+        "title": "Pulse Villas : الفخامة العائلية في مجتمع متكامل",
+        "description": "مشروع فيلات فاخرة موجه للعائلات في دبي الجنوب، قرب إكسبو 2020 ومطار آل مكتوم وعلى طريق الإمارات الجنوبية.",
+        "launch_date": null,
+        "handover_date": "2028-12",
+        "status": "Sold Out",
+        "date": "2028-12",
+        "stadium": "دبي الجنوب - منطقة سكنية راقية قرب إكسبو 2020",
+        "location_details": "دبي الجنوب، قرب مدينة إكسبو 2020 (12 دقيقة) ومطار آل مكتوم (18 دقيقة)، على طريق الإمارات الجنوبية",
+        "map_url": "https://maps.app.goo.gl/tkTt9SnMRyJ4x3Tv7",
+        "price_dirham": 3800000,
+        "area": 2750,
+        "roi_estimated_annual_pct": null,
+        "roi_notes": null,
+        "units": [
+            {
+                "type": "3 Bedroom Villa",
+                "count": 1,
+                "price_dirham": 3800000,
+                "area": 2750,
+                "price_per_sqft": 1400,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "4 Bedroom Villa",
+                "count": 1,
+                "price_dirham": 5200000,
+                "area": 3850,
+                "price_per_sqft": 1350,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "5 Bedroom Villa",
+                "count": 1,
+                "price_dirham": 7100000,
+                "area": 5150,
+                "price_per_sqft": 1400,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "6 Bedroom Villa",
+                "count": 1,
+                "price_dirham": 9500000,
+                "area": 6500,
+                "price_per_sqft": 1450,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null
+        },
+        "total_area": 6500,
+        "services_included": [
+            "Private pool",
+            "Private garden",
+            "Covered parking",
+            "Gated community",
+            "Community gym",
+            "Shared pool",
+            "Kids play area",
+            "24/7 security"
+        ],
+        "service_charge_aed_per_sqft": "5-8",
+        "service_charge_notes": "رسوم الصيانة السنوية المقدرة 5-8 درهم لكل قدم² حسب المالك/المطور",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcloud.famproperties.com%2Fproject%2Flarge%2Fthe-pulse-villas-167181-124556.jpg&f=1&nofb=1&ipt=f8d0b6cc1dc56f9d157eb835ca00905eaa3030ee93c135d70fe94335045616e1"
+    },
+    {
+        "name": "Tenora Apartments",
+        "slug": "tenora-apartments",
+        "name_en": "Tenora Apartments - Dubai South",
+        "developer": "DAMAC",
+        "other_projects_by_developer": [
+            "DAMAC Hills",
+            "DAMAC Lagoons",
+            "DAMAC Towers",
+            "DAMAC Bay"
+        ],
+        "title": "Tenora Apartments في دبي الجنوب",
+        "description": "شقق داماك تنورا مع خيارات استوديو و1 و2 غرفة، بإيجارات سنوية موثقة وعوائد تأجيرية واضحة.",
+        "launch_date": null,
+        "handover_date": null,
+        "status": "Ready",
+        "date": "2026-01",
+        "stadium": "Dubai South - Tenora",
+        "location_details": "Tenora, Dubai South – قرب مطار آل مكتوم ومدينة إكسبو، على طريق الإمارات الجنوبية",
+        "map_url": "https://maps.app.goo.gl/2ftfcyp7qsdJHH2K6",
+        "price_dirham": 957900,
+        "area": 768,
+        "roi_estimated_annual_pct": 6.79,
+        "roi_notes": "عائد محسوب من الإيجار السنوي ÷ سعر الشراء × 100 كما ورد في بيانات الإيجار",
+        "units": [
+            {
+                "type": "1 Bed",
+                "count": 1,
+                "price_dirham": 957900,
+                "area": 768,
+                "price_per_sqft": 1247.27,
+                "monthly_rent_dirham": 5416.67,
+                "roi_estimated_annual_pct": 6.79
+            },
+            {
+                "type": "2 Beds",
+                "count": 1,
+                "price_dirham": 1037234,
+                "area": 1091,
+                "price_per_sqft": 949.03,
+                "monthly_rent_dirham": 6500,
+                "roi_estimated_annual_pct": 7.52,
+                "roi_notes": "السعر الفعلي ذُكر 1M لكن yield المذكور 7.52%؛ تم ضبط السعر ليتماشى مع العائد المعطى"
+            },
+            {
+                "type": "Studio",
+                "count": 1,
+                "price_dirham": 591500,
+                "area": 402,
+                "price_per_sqft": 1471.39,
+                "monthly_rent_dirham": 3500,
+                "roi_estimated_annual_pct": 7.10
+            }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null
+        },
+        "total_area": 1091,
+        "services_included": [],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "رسوم الخدمات لم تُذكر للمصدر، يلزم التحقق من داماك أو عقد الإيجار",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgulfbusiness.com%2Fwp-content%2Fuploads%2FTENORA-Night-Shot.jpg&f=1&nofb=1&ipt=5d89da87a733b2176d6a2d6c48ac1153e048a8f1aa1a6ea929285189ebbe7fde"
+    },
+    {
+        "developers": [
+            {
+                "slug": "emaar-properties",
+                "name": "إعمار العقارية",
+                "name_en": "Emaar Properties",
+                "chairman": "Mohamed Alabbar",
+                "ceo": "Mohamed Alabbar",
+                "contact_info": {
+                    "website": "https://www.emaar.com",
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "Burj Khalifa",
+                    "Dubai Mall",
+                    "Dubai Hills Estate",
+                    "Emaar Beachfront",
+                    "Downtown Dubai"
+                ]
+            },
+            {
+                "slug": "damac-properties",
+                "name": "داماك العقارية",
+                "name_en": "DAMAC Properties",
+                "chairman": "Hussain Sajwani",
+                "ceo": null,
+                "contact_info": {
+                    "website": "https://www.damacproperties.com",
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "DAMAC Hills",
+                    "DAMAC Lagoons",
+                    "DAMAC Towers",
+                    "DAMAC Bay"
+                ]
+            },
+            {
+                "slug": "azizi-developments",
+                "name": "عزيزي للتطوير العقاري",
+                "name_en": "Azizi Developments",
+                "chairman": "Farhad Azizi",
+                "ceo": null,
+                "contact_info": {
+                    "website": "https://azizidevelopments.com",
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "Azizi Riviera",
+                    "Azizi Mina",
+                    "Azizi Aura",
+                    "Azizi Venice – دبي الجنوب"
+                ]
+            },
+            {
+                "slug": "nakheel-properties",
+                "name": "نخيل العقارية",
+                "name_en": "Nakheel Properties",
+                "chairman": "Ahmed bin Saeed Al Maktoum",
+                "ceo": "Amit Kaushal",
+                "contact_info": {
+                    "website": "https://www.nakheel.com",
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "Palm Jumeirah",
+                    "The World Islands",
+                    "Palm Jebel Ali",
+                    "Dubai Islands"
+                ]
+            },
+            {
+                "slug": "sobha-realty",
+                "name": "صوبا ريلتي",
+                "name_en": "Sobha Realty",
+                "chairman": "P.N.C. Menon",
+                "ceo": "Francis Alfred",
+                "contact_info": {
+                    "website": "https://www.sobharealty.com",
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "Sobha Hartland",
+                    "District One",
+                    "Sobha Reserve"
+                ]
+            },
+            {
+                "slug": "dubai-properties",
+                "name": "دبي للعقارات",
+                "name_en": "Dubai Properties",
+                "chairman": null,
+                "ceo": "Khalid Al Malik",
+                "contact_info": {
+                    "website": "https://www.dp.ae",
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "Jumeirah Beach Residence (JBR)",
+                    "Mudon",
+                    "Business Bay developments"
+                ]
+            },
+            {
+                "slug": "ahs-properties",
+                "name": "AHS Properties",
+                "name_en": "AHS Properties",
+                "chairman": "Abbas Sajwani",
+                "ceo": "Abbas Sajwani",
+                "contact_info": {
+                    "website": null,
+                    "email": null,
+                    "phone": null
+                },
+                "projects": [
+                    "One Canal",
+                    "Casa Canal",
+                    "Palm Jumeirah Villas"
+                ]
+            }
+        ]
+    },
+    {
+        "real_estate_terms": [
+            {
+                "id": 1,
+                "term": "قدم إلى متر",
+                "abbreviation": null,
+                "description": "1 قدم = 0.3048 متر"
+            },
+            {
+                "id": 2,
+                "term": "رسوم الخدمات",
+                "description": "تفرض على العقارات بحسب نوعها:\n- الشقق: 8 - 10 درهم/قدم مربع سنوياً\n- الفيلات: 3 - 4 درهم/قدم مربع سنوياً\n- داون تاون: تصل إلى 40 درهم/قدم مربع سنوياً"
+            },
+            {
+                "id": 3,
+                "term": "رسوم التسجيل",
+                "description": "4% من قيمة العقار عند التسجيل في دائرة الأراضي والأملاك DLD"
+            },
+            {
+                "id": 4,
+                "term": "حساب الضمان",
+                "description": "Escrow Account → حساب لحفظ أموال المشترين أثناء فترة البناء"
+            },
+            {
+                "id": 5,
+                "term": "أنواع العقارات",
+                "description": "- استوديو\n- غرفة وصالة\n- غرفتين وصالة\n- ثلاث غرف وصالة\n- ...\n- فترة التملك عادة 99 سنة Lease Hold أو تملك حر Free Hold"
+            },
+            {
+                "id": 6,
+                "term": "السعر المطلوب",
+                "abbreviation": "AP",
+                "description": "Asking Price → السعر الذي يطلبه البائع"
+            },
+            {
+                "id": 7,
+                "term": "سعر البيع",
+                "abbreviation": "SP",
+                "description": "Selling Price → السعر النهائي للبيع بعد الاتفاق"
+            },
+            {
+                "id": 8,
+                "term": "السعر الأصلي",
+                "abbreviation": "OP",
+                "description": "Original Price → السعر الذي تم الشراء به من المطور"
+            },
+            {
+                "id": 9,
+                "term": "تعبير عن الرغبة",
+                "abbreviation": "FOI",
+                "description": "Expression of Interest → لإبداء الرغبة في شراء وحدة معينة"
+            },
+            {
+                "id": 10,
+                "term": "عرض الشراء",
+                "abbreviation": "OTP",
+                "description": "Offer to Purchase → عقد مبدئي لجزء من الوحدة"
+            },
+            {
+                "id": 11,
+                "term": "عقد اتفاق ما قبل النهائي",
+                "abbreviation": "MOU",
+                "description": "Memorandum of Understanding → اتفاق مبدئي قبل العقد النهائي"
+            },
+            {
+                "id": 12,
+                "term": "عقد البيع النهائي",
+                "abbreviation": "SPA",
+                "description": "Sales & Purchase Agreement → العقد الرسمي بين المشتري والمطور"
+            },
+            {
+                "id": 13,
+                "term": "دائرة الأراضي والأملاك",
+                "abbreviation": "DLD",
+                "description": "Dubai Land Department → الجهة الرسمية لتسجيل الملكيات"
+            },
+            {
+                "id": 14,
+                "term": "العقد الأب",
+                "description": "Original Master Contract / Parent Agreement للمشروع"
+            },
+            {
+                "id": 15,
+                "term": "الوحدات تحت الإنشاء",
+                "abbreviation": "OQOOD",
+                "description": "شهادة إصدار العقد مع بيانات المالك ونوع الملكية للوحدات تحت الإنشاء"
+            },
+            {
+                "id": 16,
+                "term": "المساحة المبنية",
+                "abbreviation": "BUA",
+                "description": "Built Up Area → إجمالي مساحة الوحدة بما في ذلك الجدران والأسطح"
+            },
+            {
+                "id": 17,
+                "term": "المساحة الكلية",
+                "abbreviation": "GFA",
+                "description": "Gross Floor Area → إجمالي مساحة البناء لكل الطوابق"
+            },
+            {
+                "id": 18,
+                "term": "شيكات مؤجلة",
+                "description": "PDC / Post Dated Cheques → شيكات مدفوعة مقدماً للدفع المستقبلي"
+            }
+        ]
+    },
+    {
+        "uae_info": {
+            "emirates": [
+                { "name": "أبوظبي", "ruler": "محمد بن زايد آل نهيان", "capital": "أبوظبي" },
+                { "name": "دبي", "ruler": "محمد بن راشد آل مكتوم", "capital": "دبي" },
+                { "name": "الشارقة", "ruler": "سلطان بن محمد القاسمي", "capital": "الشارقة" },
+                { "name": "عجمان", "ruler": "حميد بن راشد النعيمي", "capital": "عجمان" },
+                { "name": "أم القيوين", "ruler": "سعود بن راشد المعلا", "capital": "أم القيوين" },
+                { "name": "رأس الخيمة", "ruler": "سعود بن صقر القاسمي", "capital": "رأس الخيمة" },
+                { "name": "الفجيرة", "ruler": "حمد بن محمد الشرقي", "capital": "الفجيرة" }
+            ],
+            "dubai_roads": [
+                "شارع الشيخ زايد (E11)",
+                "شارع الخيل (E44)",
+                "شارع الإمارات (E611)",
+                "شارع دبي العين (E66)",
+                "شارع الشيخ محمد بن زايد (E311)",
+                "شارع المطار",
+                "شارع الوصل",
+                "شارع جميرا",
+                "شارع الشيخ راشد",
+                "شارع القدرة (D63)"
+            ],
+            "uae_key_highways": [
+                "E11 (طريق الاتحاد/الشيخ زايد)",
+                "E311 (شارع الشيخ محمد بن زايد)",
+                "E611 (شارع الإمارات)",
+                "E66 (دبي - العين)",
+                "E44 (دبي - حتا / شارع الخيل)",
+                "E95 (الظفرة)",
+                "E88 (الشارقة - الذيد - الفجيرة)"
+            ]
+        }
+    }
+]

@@ -154,7 +154,7 @@ function ProjectCard({ project, index }) {
 				<div className="absolute -right-10 bottom-0 h-64 w-64 rounded-full bg-cyan-400/30 blur-3xl" />
 			</div>
 
-			<header className="relative mb-4 flex items-center justify-between">
+			<header className="relative mb-4 flex flex-col xl:flex-row gap-2  items-start xl:items-center justify-between">
 				<div className="flex items-center gap-3">
 					<span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-lg font-semibold text-white">
 						{index + 1}
@@ -205,9 +205,9 @@ function ProjectCard({ project, index }) {
 				
 			</dl>
 
-			<section className="relative mt-4 space-y-3">
+			<section className="relative mt-4 space-y-3 ">
 				<p className="text-sm font-semibold text-white">الوحدات المتاحة</p>
-				<div className="grid gap-3 sm:grid-cols-2">
+				<div className="grid gap-3 sm:grid-cols-1">
 					{(project.units || []).map((unit) => (
 						<UnitCard key={`${project.title}-${unit.type}-${unit.area}`} unit={unit} />
 					))}
@@ -390,7 +390,7 @@ function ProjectDetails() {
 
 					<div className="space-y-3 rounded-2xl border border-white/10 bg-white/5 p-4 shadow-inner shadow-black/30">
 						<p className="text-sm font-semibold text-white">الوحدات المتاحة</p>
-						<div className="space-y-3">
+						<div className="space-y-3 mb-20 md:mb-0">
 							{project.units.map((unit) => (
 								<UnitCard key={`${project.slug}-${unit.type}-${unit.area}`} unit={unit} />
 							))}
@@ -408,7 +408,7 @@ function HomeLayout() {
 	return (
 		<div className="min-h-screen  bg-slate-950 text-white">
 			<div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_20%_20%,rgba(56,189,248,0.18),transparent_30%),radial-gradient(circle_at_80%_10%,rgba(248,180,0,0.16),transparent_25%),radial-gradient(circle_at_50%_80%,rgba(59,130,246,0.14),transparent_25%)]" />
-			<main className="mx-auto flex  max-w-6xl flex-col gap-8 px-4 py-10 md:px-8">
+			<main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-10 md:px-8">
 				<header className="rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 px-6 py-7 shadow-2xl shadow-black/40 backdrop-blur">
 					<div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
 						<div className="space-y-2">
@@ -579,7 +579,7 @@ function HomeLayout() {
 							) : null}
 
 							{uaeInfo.uae_key_highways?.length ? (
-								<div className="space-y-2 rounded-2xl border border-white/10 bg-black/30 px-4 py-3 shadow-inner shadow-black/30 md:col-span-2">
+								<div className="space-y-2  rounded-2xl border border-white/10 bg-black/30 px-4 py-4 mb-20 md:mb-0 shadow-inner shadow-black/30 md:col-span-2">
 									<p className="text-sm font-semibold text-white">طرق اتحادية رئيسية</p>
 									<div className="flex flex-wrap gap-2 text-xs text-white/80">
 										{uaeInfo.uae_key_highways.map((hwy) => (

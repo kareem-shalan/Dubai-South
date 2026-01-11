@@ -139,8 +139,34 @@ function zoneSubtitle(zone) {
 	return 'مشروع';
 }
 
+function safeSlugFromName(name) {
+	const lower = (name || 'developer').toLowerCase();
+	return `auto-${lower.split(' ').join('-')}`;
+}
+
 const projects = rawData.filter((item) => Array.isArray(item.units));
-const developers = rawData.flatMap((item) => item.developers || []);
+const developersData = rawData.flatMap((item) => item.developers || []);
+const zoneDeveloperNames = Array.from(
+	new Set(
+		projects
+			.filter((project) => {
+				const zone = inferZone(project);
+				return zone === 'Dubailand' || zone === 'Dubai South';
+			})
+			.map((project) => project.developer)
+			.filter(Boolean),
+	),
+);
+const developers = zoneDeveloperNames.map((name) => {
+	const target = (name || '').toLowerCase();
+	const match = developersData.find((dev) => {
+		const nameAr = (dev.name || '').toLowerCase();
+		const nameEn = (dev.name_en || '').toLowerCase();
+		return nameAr === target || nameEn === target;
+	});
+	if (match) return match;
+	return { slug: safeSlugFromName(name), name, name_en: null };
+});
 const realEstateTerms = rawData.flatMap((item) => item.real_estate_terms || []);
 const uaeInfo = rawData.find((item) => item.uae_info)?.uae_info || {};
 
@@ -232,7 +258,7 @@ function ProjectCard({ project, index }) {
 						) : null}
 					</div>
 				</div>
-				<div className="flex items-center flex-col gap-2 whitespace-nowrap">
+				<div className="flex items-center gap-2 whitespace-nowrap">
 					{statusBadge(project.status)}
 					{zoneBadge(zone)}
 					<div className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white shadow-inner shadow-black/30">
@@ -257,12 +283,6 @@ function ProjectCard({ project, index }) {
 					<dt className="text-white/60">السعر</dt>
 					<dd className="font-semibold text-amber-200">{formatPrice(project.price_dirham)}</dd>
 				</div>
-				{project.price_per_sqft ? (
-					<div>
-						<dt className="text-white/60">سعر القدم</dt>
-						<dd className="font-semibold text-white/80">{project.price_per_sqft} درهم/قدم²</dd>
-					</div>
-				) : null}
 				{project.payment_plan ? (
 					<div className="col-span-2">
 						<dt className="text-white/60">خطة الدفع</dt>
@@ -413,14 +433,6 @@ function ProjectDetails() {
 									{formatPrice(project.price_dirham)}
 								</p>
 							</div>
-							{project.price_per_sqft ? (
-								<div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white/80 shadow-inner shadow-black/30">
-									<p className="text-white/60 text-sm">سعر القدم</p>
-									<p className="text-base font-semibold text-white/80">
-										{project.price_per_sqft} درهم/قدم²
-									</p>
-								</div>
-							) : null}
 							{project.payment_plan ? (
 								<div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white/80 shadow-inner shadow-black/30">
 									<p className="text-white/60 text-sm">خطة الدفع</p>
@@ -514,9 +526,9 @@ function HomeLayout() {
 				<header className="rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 px-6 py-7 shadow-2xl shadow-black/40 backdrop-blur">
 					<div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
 						<div className="space-y-2">
-							<p className="text-sm uppercase font-bold tracking-[0.2em] text-yellow-300/60">Dubai </p>
+							<p className="text-sm uppercase tracking-[0.2em] text-white/60">Dubai South</p>
 							<h1 className="text-3xl font-bold leading-tight text-white md:text-4xl animate-pulse transition-all duration-100 ">
-								Dubai  Projects
+								Dubai South Projects
 							</h1>
 							
 						</div>

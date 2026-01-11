@@ -1216,6 +1216,169 @@
                     "Samana Manhattan",
                     "Samana Hills South 2 - Dubai South"
                 ]
+            },
+            {
+                "slug": "sky-link-development",
+                "name": "سكاي لينك للتطوير",
+                "name_en": "Sky Link Development",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": null,
+                "story": "سكاي لينك مطور نشط في دبي يركز على أبراج سكنية متوسطة بواجهات زجاجية وتشطيبات حديثة.",
+                "key_strengths": [
+                    "تصميمات زجاجية عصرية",
+                    "تسليمات مرحلية",
+                    "أسعار تنافسية"
+                ],
+                "projects": [
+                    "Sky Link Residences (2025)",
+                    "Sky Link Tower (2026)"
+                ]
+            },
+            {
+                "slug": "bling-development",
+                "name": "Bling Development",
+                "name_en": "Bling Development",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": null,
+                "story": "Bling Development مطور نشط في دبي مع تركيز على التشطيبات الفاخرة والإضاءة المميزة في الواجهات.",
+                "key_strengths": [
+                    "تشطيبات فاخرة",
+                    "تصاميم واجهات بإضاءة",
+                    "مواقع حضرية"
+                ],
+                "projects": [
+                    "Bling Tower (2025)",
+                    "Bling Residences (2026)"
+                ]
+            },
+            {
+                "slug": "dubai-south-properties",
+                "name": "Dubai South",
+                "name_en": "Dubai South",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": null,
+                "story": "Dubai South المطور الرئيسي للمنطقة حول مطار آل مكتوم، يشرف على مشاريع سكنية متكاملة وبنى تحتية داعمة.",
+                "key_strengths": [
+                    "تطوير مجتمعات متكاملة",
+                    "قرب المطار والمناطق اللوجستية",
+                    "بنية تحتية حكومية"
+                ],
+                "projects": [
+                    "The Pulse (2024)",
+                    "South Bay (2025)"
+                ]
+            },
+            {
+                "slug": "imtiaz-developments",
+                "name": "امتياز للتطوير",
+                "name_en": "Imtiaz Developments",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": null,
+                "story": "امتياز للتطوير مطور نشط في دبي مع تركيز على Dubailand Residence Complex ومشاريع مفروشة بتشطيبات حديثة.",
+                "key_strengths": [
+                    "تشطيبات حديثة",
+                    "مواقع قريبة من الطرق الرئيسية",
+                    "وحدات مفروشة وخطط دفع مرنة"
+                ],
+                "projects": [
+                    "Cove Edition (2025)",
+                    "Cove Boulevard (2028)"
+                ]
+            },
+            {
+                "slug": "tiger-properties",
+                "name": "تايجر بروبرتيز",
+                "name_en": "Tiger Properties",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": 1976,
+                "story": "تايجر بروبرتيز مطور إماراتي مخضرم يجمع بين المقاولات والتطوير العقاري مع توسع قوي في دبي لاند.",
+                "key_strengths": [
+                    "خبرة مقاولات طويلة",
+                    "أسعار تنافسية",
+                    "تشطيبات حديثة"
+                ],
+                "projects": [
+                    "Wadi Hills (2028)",
+                    "Tiger Sky Tower (2025)"
+                ]
+            },
+            {
+                "slug": "jade-developments",
+                "name": "Jade",
+                "name_en": "Jade Developments",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": null,
+                "story": "Jade مطور يعمل في مجان ودبي لاند مع تركيز على الأبراج السكنية المتوسطة وخطط دفع واضحة.",
+                "key_strengths": [
+                    "خطط دفع مباشرة",
+                    "مواقع على محاور رئيسية",
+                    "تشطيبات عملية"
+                ],
+                "projects": [
+                    "Jade Tower (2027)",
+                    "Jade Majan 2 (2027)"
+                ]
+            },
+            {
+                "slug": "danube-properties",
+                "name": "دانوب العقارية",
+                "name_en": "Danube Properties",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": null,
+                "story": "دانوب العقارية مطور نشط بخطط دفع تمتد بعد التسليم، مع مشاريع موجهة للطبقة المتوسطة في أرجان ومحيط دبي لاند.",
+                "key_strengths": [
+                    "خطط دفع 1% شهرياً",
+                    "استهداف الملاك الجدد",
+                    "تشطيبات عملية"
+                ],
+                "projects": [
+                    "Viewz by Danube (2024)",
+                    "SKYZ (2025)",
+                    "Eleganz (2025)"
+                ]
+            },
+            {
+                "slug": "damac",
+                "name": "DAMAC",
+                "name_en": "DAMAC",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": 2002,
+                "story": "DAMAC مطور نشط في دبي بدأ بالأبراج الفاخرة وتوسع إلى مجتمعات متكاملة مثل DAMAC Hills وLagoons، وقدم Tenora مبكراً في دبي الجنوب.",
+                "key_strengths": [
+                    "منتجات فاخرة",
+                    "علامات فندقية",
+                    "عوائد إيجارية قوية"
+                ],
+                "projects": [
+                    "Tenora (2024)",
+                    "DAMAC Hills 2 (2025)",
+                    "DAMAC Lagoons (قيد التطوير)"
+                ]
+            },
+            {
+                "slug": "unspecified-developer",
+                "name": "غير مذكور",
+                "name_en": "Unspecified Developer",
+                "chairman": null,
+                "ceo": null,
+                "founded_year": null,
+                "story": "مطور نشط في دبي.",
+                "key_strengths": [
+                    "مشاريع جارية",
+                    "يُحدد عند التعاقد"
+                ],
+                "projects": [
+                    "Project A (2025)",
+                    "Project B (2026)"
+                ]
             }
         ]
     },

@@ -604,6 +604,356 @@
         "developer_story": "مطور محلي ناشئ يُرجح تأسيسه في 2020 ركز على مساكن متوسطة قرب مطار آل مكتوم، مع أول تسليم معلن في 2025 ضمن مشروع Manam Prime قرب دبي ساوث مول."
     },
     {
+        "name": "samana-avenue-1",
+        "slug": "Samana Avenue 1",
+        "name_en": "Samana Avenue 1",
+        "developer": "Samana Developers",
+        "title": "شقق مع مسابح خاصة في الشرفات - Dubailand Residence Complex",
+        "description": "165 وحدة في DLRC بين E66 وE611، بعض الشرفات بمسابح خاصة.",
+        "launch_date": null,
+        "handover_date": "2027-12",
+        "status": "off plan",
+        "date": "2027-12",
+        "stadium": "Dubailand Residence Complex (DLRC)",
+        "location_details": "DLRC بين طريقي دبي العين E66 والإمارات E611",
+        "map_url": "https://maps.app.goo.gl/jVv6ruGKhw5Cm7ag9",
+        "price_dirham": 1300,
+        "area": 500,
+        "price_per_sqft": 1300,
+        "units": [
+            { "type": "Studio", "count": 1, "price_dirham": 660000, "area": 426, "price_per_sqft": 1550 },
+            { "type": "1BR", "count": 1, "price_dirham": 976000, "area": 804, "price_per_sqft": 1214.93 },
+            { "type": "2BR", "count": 1, "price_dirham": 1400000, "area": 1230, "price_per_sqft": 1138.21 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [
+                { "value": 20, "label": "دفعة أولى (مقيم)" },
+                { "value": 1, "label": "شهرياً لمدة 42 شهر" },
+                { "value": 10, "label": "بعد 12 شهر" },
+                { "value": 5, "label": "بعد 18 شهر" },
+                { "value": 0.5, "label": "بعد التسليم" }
+            ],
+            "notes": "لغير المقيمين: 15% دفعة أولى مع نفس الجدول الشهري"
+        },
+        "services_included": [
+            "حمامات سباحة خاصة بالشرفات",
+            "مسبح",
+            "جيم",
+            "منطقة لعب أطفال"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "غير مذكورة، يفضل التأكد من المطور",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcloud.famproperties.com%2Fproject%2Flarge%2F-406827-140823.jpg&f=1&nofb=1&ipt=e5d2f5c3204cfec1f9ac309d4584d05e1660105d373bc4671875915d42db94b9",
+        "developer_story": "سمانا للتطوير تأسست في دبي عام 2010 وبرزت بتقديم مسابح خاصة في الشرفات، مع تركيز على تسعير متوسط وتشطيبات عصرية داخل مجمعات مثل DLRC."
+    },
+    {
+        "name": "samana-boulevard-heights-2",
+        "slug": "Samana Boulevard Heights 2",
+        "name_en": "Samana Boulevard Heights 2",
+        "developer": "Samana Developers",
+        "title": "538 شقة مع بعض المسابح الخاصة - DLRC",
+        "description": "موقع استراتيجي في DLRC قرب دبي العين، بعض الوحدات بمسبح خاص.",
+        "launch_date": null,
+        "handover_date": "2029-03",
+        "status": "off plan",
+        "date": "2029-03",
+        "stadium": "Dubailand Residence Complex",
+        "location_details": "DLRC بجوار طريق دبي العين وقريب من القرية العالمية",
+        "map_url": "https://maps.app.goo.gl/U22UNw3F54XFb4WM6",
+        "price_dirham": 1560,
+        "area": 500,
+        "price_per_sqft": 1560,
+        "units": [
+            { "type": "Studio", "count": 1, "price_dirham": 693000, "area": 430, "price_per_sqft": 1611.63 },
+            { "type": "1BR", "count": 1, "price_dirham": 1150000, "area": 800, "price_per_sqft": 1437.5 },
+            { "type": "2BR", "count": 1, "price_dirham": 1600000, "area": 1200, "price_per_sqft": 1333.33 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [
+                { "value": 15, "label": "دفعة أولى" },
+                { "value": 10, "label": "بعد شهر" },
+                { "value": 1, "label": "شهرياً لمدة 70 شهر" },
+                { "value": 10, "label": "في الشهر 12" }
+            ],
+            "notes": "دفعات 1% شهرية حتى التسليم وبعده حسب الجدول"
+        },
+        "services_included": [
+            "مسابح خاصة لبعض الوحدات",
+            "مسبح",
+            "جيم",
+            "منطقة لعب أطفال",
+            "تسليم نصف مفروش"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "غير مذكورة، يفضل التأكد من المطور",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.KYxH_8qSXLo2fwA9Khi59QHaE8%3Fpid%3DApi&f=1&ipt=69c3941fda23788c7981b78e8ba803e6a5608eee43162d0aa117c097a31f5dea",
+        "developer_story": "سمانا للتطوير تأسست في 2010 ووسّعت محفظتها بمشاريع ذات مسابح خاصة في الشرفات وخطط دفع مرنة، مستهدفة عوائد إيجارية منافسة في DLRC."
+    },
+    {
+        "name": "cove-edition-6",
+        "slug": "Cove Edition 6",
+        "name_en": "Cove Edition 6",
+        "developer": "Imtiaz Developments",
+        "title": "شقق مودرن قرب واحة دبي للسيليكون - DLRC",
+        "description": "تصميم حديث مع مسبح وجيم ولوبي شيك في Dubailand Residence Complex.",
+        "launch_date": null,
+        "handover_date": "2027-12",
+        "status": "off plan",
+        "date": "2027-12",
+        "stadium": "Dubailand Residence Complex",
+        "location_details": "قريب من واحة دبي للسيليكون والمدينة الأكاديمية وطريق محمد بن زايد",
+        "map_url": null,
+        "price_dirham": 1681,
+        "area": 446,
+        "price_per_sqft": 1681,
+        "units": [
+            { "type": "Studio", "count": 1, "price_dirham": 679000, "area": 446, "price_per_sqft": 1521.52 },
+            { "type": "1BR", "count": 1, "price_dirham": 1158000, "area": 817, "price_per_sqft": 1418.23 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [
+                { "value": 20, "label": "حجز" },
+                { "value": 20, "label": "أثناء البناء" },
+                { "value": 50, "label": "عند التسليم" }
+            ],
+        "notes": "يذكر أيضاً خيار 30% أثناء البناء حسب الكتيب"
+        },
+        "services_included": [
+            "مسبح",
+            "جيم",
+            "لوبي حديث",
+            "مواقف سيارات",
+            "أمن 24 ساعة"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "غير مذكورة، يفضل التأكد من المطور",
+        "image_url": "https://images.unsplash.com/photo-1465808887387-636ac0f0f0ff?auto=format&fit=crop&w=1200&q=80",
+        "developer_story": "امتياز للتطوير شركة مقرها دبي اشتهرت بمشاريع سكنية حديثة في DLRC مع تشطيبات مودرن واستغلال أمثل للمساحات."
+    },
+    {
+        "name": "cove-boulevard",
+        "slug": "Cove Boulevard",
+        "name_en": "Cove Boulevard",
+        "developer": "Imtiaz Developments",
+        "title": "قريب من IMG والقرية العالمية - DLRC",
+        "description": "شقق بإطلالات بانورامية وأثاث راقٍ ونظام منزل ذكي، قرب IMG والقرية العالمية.",
+        "launch_date": null,
+        "handover_date": "2028-06",
+        "status": "off plan",
+        "date": "2028-06",
+        "stadium": "Dubailand",
+        "location_details": "قريب من طريق دبي العين وشارع الشيخ محمد بن زايد، 5 دقائق IMG، 8 دقائق القرية العالمية",
+        "map_url": "https://maps.app.goo.gl/v1S5aF6sr78j7Ls36",
+        "price_dirham": 1567,
+        "area": 760,
+        "price_per_sqft": 1567,
+        "units": [
+            { "type": "Studio", "count": 1, "price_dirham": 760000, "area": 446, "price_per_sqft": 1703.14 },
+            { "type": "1BR", "count": 1, "price_dirham": 1190000, "area": 760, "price_per_sqft": 1565.79 },
+            { "type": "2BR", "count": 1, "price_dirham": 1767217, "area": 1209, "price_per_sqft": 1462.29 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [
+                { "value": 20, "label": "حجز" },
+                { "value": 30, "label": "أثناء البناء" },
+                { "value": 50, "label": "عند التسليم" }
+            ],
+            "notes": "دفعات قياسية 20/30/50"
+        },
+        "services_included": [
+            "مسبح",
+            "جيم",
+            "حديقة زن",
+            "جاكوزي",
+            "نظام منزل ذكي"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "غير مذكورة، يفضل التأكد من المطور",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.topluxuryproperty.com%2Fgallery%2Flocation-advantage-of-imtiaz-cove-edition-6-638855131030591179.webp&f=1&nofb=1&ipt=9ec224795459d3976f29c40be2185171c3f0adaea55100d7fde7200affb701e2",
+        "developer_story": "امتياز للتطوير تركز على مشاريع سكنية بمواقع استراتيجية في دبي لاند، مع تشطيبات راقية وخدمات ذكية لتعظيم القيمة الإيجارية."
+    },
+    {
+        "name": "wadi-hills",
+        "slug": "Wadi Hills",
+        "name_en": "Wadi Hills (Tower 1 & 2)",
+        "developer": "Tiger Properties",
+        "title": "أبراج تملك حر في وادي الصفا 5 - دبي لاند",
+        "description": "شقق مفروشة بالكامل مع حدائق ومسبح وجيم، بأسعار قدم متدرجة حسب المساحة.",
+        "launch_date": null,
+        "handover_date": "2028-03",
+        "status": "off plan",
+        "date": "2028-03",
+        "stadium": "Wadi Al Safa 5 - Dubailand",
+        "location_details": "قريب من طريق العين، طريق الإمارات العابر، وطريق الشيخ محمد بن زايد",
+        "map_url": "https://maps.app.goo.gl/DEWFee8JtMiQ4RsZ6",
+        "price_dirham": 1300,
+        "area": 665,
+        "price_per_sqft": 1300,
+        "units": [
+            { "type": "Studio", "count": 1, "price_dirham": 659000, "area": 360, "price_per_sqft": 1830.56 },
+            { "type": "1BR", "count": 1, "price_dirham": 968000, "area": 665, "price_per_sqft": 1455.64 },
+            { "type": "3BR", "count": 1, "price_dirham": 1540000, "area": 1435, "price_per_sqft": 1073.44 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [
+                { "value": 40, "label": "أثناء البناء" },
+                { "value": 10, "label": "عند التسليم" },
+                { "value": 30, "label": "بعد التسليم" }
+            ],
+            "notes": "خطة 70/30 شائعة مع دفعة أولى ضمن الـ40% أثناء البناء"
+        },
+        "services_included": [
+            "مسبح",
+            "جيم",
+            "حدائق",
+            "شقق مفروشة بالكامل"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "غير مذكورة، يفضل التأكد من المطور",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewwayint.com%2Fimage%2Fcache%2Fcatalog%2Fprojects-chini%2Fwadi-hills-by-hre%2Fwadi-hills-by-hre-home-1200x900.webp&f=1&nofb=1&ipt=ffed2ea908b3beb539d3c2ad1d1cdce9644373ad21bb6b3fd789a73799d836fa",
+        "developer_story": "تايجر بروبرتيز تأسست عام 1976 في الإمارات، وتمزج بين المقاولات والتطوير لتقديم وحدات بأسعار تنافسية وتشطيبات حديثة في دبي لاند."
+    },
+    {
+        "name": "jade-tower",
+        "slug": "Jade Tower",
+        "name_en": "Jade Tower (Majan 2)",
+        "developer": "Jade",
+        "title": "برج سكني في مجان - دبي لاند",
+        "description": "استوديو و1 و2 غرفة في مجان على شارع الشيخ محمد بن زايد، تسليم Q1 2027.",
+        "launch_date": null,
+        "handover_date": "2027-03",
+        "status": "off plan",
+        "date": "2027-03",
+        "stadium": "Majan - Dubailand",
+        "location_details": "مجان، على شارع الشيخ محمد بن زايد (E311)",
+        "map_url": "https://maps.app.goo.gl/YYegHPJkgRZxSGuZ7",
+        "price_dirham": 1023,
+        "area": 450,
+        "price_per_sqft": 1023,
+        "units": [
+            { "type": "Studio", "count": 1, "price_dirham": 541000, "area": 373, "price_per_sqft": 1450.67 },
+            { "type": "1BR", "count": 1, "price_dirham": 860000, "area": 743, "price_per_sqft": 1157.47 },
+            { "type": "2BR", "count": 1, "price_dirham": 1300000, "area": 1131, "price_per_sqft": 1149.43 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [
+                { "value": 20, "label": "دفعة أولى" },
+                { "value": 60, "label": "أثناء البناء" },
+                { "value": 20, "label": "عند التسليم" }
+            ],
+            "notes": "خطة 20/60/20"
+        },
+        "services_included": [
+            "مسبح خارجي",
+            "مسار مشي وجري",
+            "جيم",
+            "منطقة لعب أطفال"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "غير مذكورة، يفضل التأكد من المطور",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.luxurylifestylemag.co.uk%2Fwp-content%2Fuploads%2F2024%2F06%2F24-02-26_JADE_TOWER_14-copia.jpg&f=1&nofb=1&ipt=065e7c74fda638dd1e1e6a5a243583ea6cb186d2f114ca88145f1cd37c291170",
+        "developer_story": "Jade مطور محلي في مجان يركز على وحدات سكنية متوسطة مع خطط دفع مرنة وتواصل قريب من المالكين."
+    },
+    {
+        "name": "danube-jewelz-ready",
+        "slug": "Danube Jewelz",
+        "name_en": "Danube Jewelz",
+        "developer": "Danube Properties",
+        "title": "مشروع جاهز في أرجان بعوائد قوية",
+        "description": "جاهز 2023 في أرجان قرب شارع محمد بن زايد، بإيجارات موثقة وعوائد مرتفعة.",
+        "launch_date": null,
+        "handover_date": "2023-12",
+        "status": "Ready",
+        "date": "2023-12",
+        "stadium": "Arjan - Dubailand",
+        "location_details": "أرجان قرب موتور سيتي ودبي سبورت سيتي",
+        "map_url": "https://maps.app.goo.gl/4UyyRomrQww6AHbX7",
+        "price_dirham": 700000,
+        "area": 421,
+        "price_per_sqft": 1663.66,
+        "units": [
+            { "type": "Studio (Low)", "count": 1, "price_dirham": 535000, "area": 422, "price_per_sqft": 1268, "monthly_rent_dirham": 1958, "roi_estimated_annual_pct": 4.39 },
+            { "type": "Studio", "count": 1, "price_dirham": 580000, "area": 422, "price_per_sqft": 1374, "monthly_rent_dirham": 2778, "roi_estimated_annual_pct": 5.75 },
+            { "type": "1BR", "count": 1, "price_dirham": 916900, "area": 886, "price_per_sqft": 1035, "monthly_rent_dirham": 5917, "roi_estimated_annual_pct": 7.74 },
+            { "type": "2BR (1116)", "count": 1, "price_dirham": 900000, "area": 1116, "price_per_sqft": 806, "monthly_rent_dirham": 8333, "roi_estimated_annual_pct": 11.11 },
+            { "type": "2BR (1113)", "count": 1, "price_dirham": 900000, "area": 1113, "price_per_sqft": 809, "monthly_rent_dirham": 8575, "roi_estimated_annual_pct": 11.43 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [],
+            "notes": "مشروع جاهز؛ التقسيط حسب اتفاق إعادة البيع أو التمويل البنكي"
+        },
+        "services_included": [
+            "مسبح",
+            "جيم",
+            "ملاعب بادل",
+            "حدائق"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "يُرجى التأكد من جمعية الملاك",
+        "roi_notes": "بيانات شاشة عرض رقمية للوحدات المعاد بيعها",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewprojects.99acres.com%2Fprojects%2Fdanube_group%2Fdanube_jewelz%2Fimages%2Fvm591w4i_large.jpg&f=1&nofb=1&ipt=2c33c4b29eb6325ef50200553052ab6096addea2802d1d946fb229ab9e72c313",
+        "developer_story": "دانوب العقارية ذراع التطوير لمجموعة دانوب (تأسست 1993)، تشتهر بخطط دفع مطولة ومنتجات جاهزة في أرجان وJVC بأسعار منافسة."
+    },
+    {
+        "name": "danube-skyz-ready",
+        "slug": "Danube Skyz",
+        "name_en": "Danube Skyz",
+        "developer": "Danube Properties",
+        "title": "مشروع جاهز في أرجان مع خطة دفع بعد التسليم",
+        "description": "شقق جاهزة في أرجان مع أقساط ممتدة بعد التسليم.",
+        "launch_date": null,
+        "handover_date": null,
+        "status": "Ready",
+        "date": "2024-01",
+        "stadium": "Arjan - Dubailand",
+        "location_details": "أرجان على محور الشيخ محمد بن زايد",
+        "map_url": "https://maps.app.goo.gl/ZLfbQPszHhuZagRW8",
+        "price_dirham": 590000,
+        "area": 348,
+        "price_per_sqft": 1695.4,
+        "units": [
+            { "type": "Studio", "count": 1, "price_dirham": 590000, "area": 348, "price_per_sqft": 1695.4 },
+            { "type": "1BR", "count": 1, "price_dirham": 790000, "area": 550, "price_per_sqft": 1436.36 }
+        ],
+        "payment_plan": {
+            "total_price": null,
+            "installments": null,
+            "percentages": [
+                { "value": 10, "label": "حجز" },
+                { "value": 42, "label": "خلال الإنشاء" },
+                { "value": 10, "label": "عند التسليم" },
+                { "value": 48, "label": "بعد التسليم (48 شهر)" }
+            ],
+            "notes": "خطة دفع ممتدة بعد التسليم"
+        },
+        "services_included": [
+            "مسابح",
+            "جيم",
+            "أمن",
+            "سوبرماركت",
+            "مسارات جري",
+            "سبا وسونا"
+        ],
+        "service_charge_aed_per_sqft": null,
+        "service_charge_notes": "يُرجى التأكد من المطور أو جمعية الملاك",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvestindxb.com%2Fwp-content%2Fuploads%2F2021%2F11%2FSKYZ-Tower-Danube-investindxb-01.jpg&f=1&nofb=1&ipt=5b4912a9823b89678d0f81424d479fa06aec15a576ba287c3eb34e61500ba002",
+        "developer_story": "دانوب العقارية تقدم خطط تقسيط بعد التسليم لتمكين المشترين، مع تركيز على مواقع مثل أرجان وJVC منذ 2017."
+    },
+    {
         "developers": [
             {
                 "slug": "emaar-properties",

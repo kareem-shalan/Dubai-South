@@ -106,6 +106,26 @@ function statusBadge(status) {
 	);
 }
 
+function inferZone(project) {
+	const text = `${project.location_details || ''} ${project.stadium || ''} ${project.title || ''}`.toLowerCase();
+	if (text.includes('dubai south') || text.includes('دبي الجنوب')) return 'Dubai South';
+	if (text.includes('dubailand') || text.includes('dlrc') || text.includes('مجان') || text.includes('أرجان')) return 'Dubailand';
+	return null;
+}
+
+function zoneBadge(zone) {
+	if (!zone) return null;
+	const color =
+		zone === 'Dubai South'
+			? 'bg-cyan-300/20 text-cyan-100 border-cyan-300/40'
+			: 'bg-amber-300/20 text-amber-100 border-amber-300/40';
+	return (
+		<span className={`rounded-full border px-3 py-1 text-[11px] font-semibold shadow-inner shadow-black/30 ${color}`}>
+			{zone}
+		</span>
+	);
+}
+
 const projects = rawData.filter((item) => Array.isArray(item.units));
 const developers = rawData.flatMap((item) => item.developers || []);
 const realEstateTerms = rawData.flatMap((item) => item.real_estate_terms || []);
@@ -174,6 +194,7 @@ function ProjectCard({ project, index }) {
 		project.roi_estimated_annual_pct,
 	);
 	const roiText = formatRoi(projectRoiValue);
+	const zone = inferZone(project);
 	return (
 		<article className="relative overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 p-6 shadow-2xl shadow-black/40 backdrop-blur min-h-full  transition-all duration-300 cursor-pointer">
 			<div className="pointer-events-none absolute inset-0 opacity-40">
@@ -197,8 +218,9 @@ function ProjectCard({ project, index }) {
 						) : null}
 					</div>
 				</div>
-				<div className="flex items-center gap-2 whitespace-nowrap">
+				<div className="flex items-center flex-col gap-2 whitespace-nowrap">
 					{statusBadge(project.status)}
+					{zoneBadge(zone)}
 					<div className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white shadow-inner shadow-black/30">
 						{formatMonth(project.date)}
 					</div>
@@ -221,6 +243,12 @@ function ProjectCard({ project, index }) {
 					<dt className="text-white/60">السعر</dt>
 					<dd className="font-semibold text-amber-200">{formatPrice(project.price_dirham)}</dd>
 				</div>
+				{project.price_per_sqft ? (
+					<div>
+						<dt className="text-white/60">سعر القدم</dt>
+						<dd className="font-semibold text-white/80">{project.price_per_sqft} درهم/قدم²</dd>
+					</div>
+				) : null}
 				{project.payment_plan ? (
 					<div className="col-span-2">
 						<dt className="text-white/60">خطة الدفع</dt>
@@ -322,6 +350,7 @@ function ProjectDetails() {
 						</div>
 						<div className="flex flex-wrap items-center gap-2">
 							{statusBadge(project.status)}
+							{zoneBadge(inferZone(project))}
 							<div className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white shadow-inner shadow-black/30">
 								{formatMonth(project.date)}
 							</div>
@@ -368,6 +397,14 @@ function ProjectDetails() {
 									{formatPrice(project.price_dirham)}
 								</p>
 							</div>
+							{project.price_per_sqft ? (
+								<div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white/80 shadow-inner shadow-black/30">
+									<p className="text-white/60 text-sm">سعر القدم</p>
+									<p className="text-base font-semibold text-white/80">
+										{project.price_per_sqft} درهم/قدم²
+									</p>
+								</div>
+							) : null}
 							{project.payment_plan ? (
 								<div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white/80 shadow-inner shadow-black/30">
 									<p className="text-white/60 text-sm">خطة الدفع</p>
@@ -461,9 +498,9 @@ function HomeLayout() {
 				<header className="rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 px-6 py-7 shadow-2xl shadow-black/40 backdrop-blur">
 					<div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
 						<div className="space-y-2">
-							<p className="text-sm uppercase tracking-[0.2em] text-white/60">Dubai South</p>
+							<p className="text-sm uppercase font-bold tracking-[0.2em] text-yellow-300/60">Dubai </p>
 							<h1 className="text-3xl font-bold leading-tight text-white md:text-4xl animate-pulse transition-all duration-100 ">
-								Dubai South Projects
+								Dubai  Projects
 							</h1>
 							
 						</div>

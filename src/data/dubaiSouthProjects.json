@@ -19,19 +19,49 @@
         "stadium": "شارع الإمارات - مقابل مطار آل مكتوم",
         "location_details": "دبي الجنوب، قرب مطار آل مكتوم الدولي، مخرج شارع الإمارات E611، بوابة 2",
         "map_url": "https://www.google.com/maps?q=24.8965,55.1620",
-        "price_dirham": 920000,
-        "area": 650,
-        "price_per_sqft": 1415.38,
+        "price_dirham": 650000,
+        "area": 400,
+        "price_per_sqft": 1720,
         "roi_estimated_annual_pct": null,
         "roi_notes": null,
         "units": [
             {
                 "type": "Studio",
                 "count": 1,
-                "price_dirham": 920000,
-                "area": 650,
+                "price_dirham": 650000,
+                "area": 400,
                 "down_payment": null,
                 "price_per_sqft": 1415.38,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "Studio",
+                "count": 1,
+                "price_dirham": 920000,
+                "area": 750,
+                "down_payment": null,
+                "price_per_sqft": 1415.38,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "1 Bedroom Apartment",
+                "count": 1,
+                "price_dirham": 1180000,
+                "area": 750,
+                "down_payment": null,
+                "price_per_sqft": 1176.47,
+                "roi_estimated_annual_pct": null,
+                "monthly_rent_dirham": null
+            },
+            {
+                "type": "1 Bedroom Apartment",
+                "count": 1,
+                "price_dirham": 1500000,
+                "area": 1000,
+                "down_payment": null,
+                "price_per_sqft": 1176.47,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
@@ -39,17 +69,7 @@
                 "type": "2 Bedroom Apartment",
                 "count": 1,
                 "price_dirham": 2000000,
-                "area": 1700,
-                "down_payment": null,
-                "price_per_sqft": 1176.47,
-                "roi_estimated_annual_pct": null,
-                "monthly_rent_dirham": null
-            },
-            {
-                "type": "3 Bedroom Apartment",
-                "count": 1,
-                "price_dirham": 3380000,
-                "area": 2800,
+                "area": 1600,
                 "down_payment": null,
                 "price_per_sqft": 1207.14,
                 "roi_estimated_annual_pct": null,
@@ -119,26 +139,27 @@
         "roi_estimated_annual_pct": null,
         "roi_notes": null,
         "units": [
-            {
-                "type": "1 Bedroom Apartment",
+             {
+                "type": "Studio",
                 "count": 1,
-                "price_dirham": 1135999,
-                "area": 728.72,
-                "down_payment": 197999,
-                "price_per_sqft": 1559,
+                "price_dirham": 782000,
+                "area": 423,
+                "down_payment": null,
+                "price_per_sqft": 1800,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
             {
-                "type": "2 Bedroom Apartment",
-                "count": 2,
-                "price_dirham": 1305000,
-                "area": 863.37,
-                "down_payment": 289999,
+                "type": "1 Bedroom Apartment",
+                "count": 1,
+                "price_dirham": 1200000,
+                "area": 700,
+                "down_payment": 197999,
                 "price_per_sqft": 1559,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             }
+          
         ],
         "payment_plan": {
             "total_price": 1135999,
@@ -194,9 +215,9 @@
             {
                 "type": "غرفة",
                 "count": 3,
-                "price_dirham": 985000,
-                "area": 700,
-                "price_per_sqft": 1407.14,
+                "price_dirham": 640000,
+                "area": 650,
+                "price_per_sqft": 1000,
                 "roi_estimated_annual_pct": null,
                 "monthly_rent_dirham": null
             },
@@ -706,7 +727,7 @@
         "date": "2027-12",
         "stadium": "Dubailand Residence Complex",
         "location_details": "قريب من واحة دبي للسيليكون والمدينة الأكاديمية وطريق محمد بن زايد",
-        "map_url": null,
+        "map_url": "https://maps.app.goo.gl/nFaHN7kQrFoP2y1N8",
         "price_dirham": 1681,
         "area": 446,
         "price_per_sqft": 1681,
@@ -733,7 +754,7 @@
         ],
         "service_charge_aed_per_sqft": null,
         "service_charge_notes": "غير مذكورة، يفضل التأكد من المطور",
-        "image_url": "https://images.unsplash.com/photo-1465808887387-636ac0f0f0ff?auto=format&fit=crop&w=1200&q=80",
+        "image_url": "https://metropolitan.realestate/wp-content/uploads/2025/07/Cove-Edition-6-1.jpg",
         "developer_story": "امتياز للتطوير شركة مقرها دبي اشتهرت بمشاريع سكنية حديثة في DLRC مع تشطيبات مودرن واستغلال أمثل للمساحات."
     },
     {

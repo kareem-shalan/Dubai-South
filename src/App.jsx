@@ -108,8 +108,15 @@ function statusBadge(status) {
 
 function inferZone(project) {
 	const text = `${project.location_details || ''} ${project.stadium || ''} ${project.title || ''}`.toLowerCase();
-	if (text.includes('dubai south') || text.includes('دبي الجنوب')) return 'Dubai South';
-	if (text.includes('dubailand') || text.includes('dlrc') || text.includes('مجان') || text.includes('أرجان')) return 'Dubailand';
+	if (text.includes('dubai south') || text.includes('دبي الجنوب') || text.includes('دوبي ثوس')) return 'Dubai South';
+	if (
+		text.includes('dubailand') ||
+		text.includes('dlrc') ||
+		text.includes('مجان') ||
+		text.includes('أرجان') ||
+		text.includes('دبي لاند')
+	)
+		return 'Dubailand';
 	return null;
 }
 
@@ -124,6 +131,12 @@ function zoneBadge(zone) {
 			{zone}
 		</span>
 	);
+}
+
+function zoneSubtitle(zone) {
+	if (zone === 'Dubailand') return 'مشروع دوبي ثوس';
+	if (zone === 'Dubai South') return 'مشروع دبي الجنوب';
+	return 'مشروع';
 }
 
 const projects = rawData.filter((item) => Array.isArray(item.units));
@@ -195,6 +208,7 @@ function ProjectCard({ project, index }) {
 	);
 	const roiText = formatRoi(projectRoiValue);
 	const zone = inferZone(project);
+	const zoneLabel = zoneSubtitle(zone);
 	return (
 		<article className="relative overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 p-6 shadow-2xl shadow-black/40 backdrop-blur min-h-full  transition-all duration-300 cursor-pointer">
 			<div className="pointer-events-none absolute inset-0 opacity-40">
@@ -208,7 +222,7 @@ function ProjectCard({ project, index }) {
 						{index + 1}
 					</span>
 					<div>
-						<p className="text-sm text-white/70">مشروع دبي الجنوب</p>
+						<p className="text-sm text-white/70">{zoneLabel}</p>
 						<h3 className="text-lg font-semibold whitespace-nowrap leading-tight text-white">{projectName}</h3>
 						{project.name_en ? (
 							<p className="text-[10px]  whitespace-nowrap  text-white/70 underline ">{project.name_en}</p>
@@ -309,6 +323,8 @@ function ProjectDetails() {
 		projectMonthlyRent,
 		project.roi_estimated_annual_pct,
 	);
+	const zone = inferZone(project);
+	const zoneLabel = zoneSubtitle(zone);
 
 	if (!project) {
 		return (
@@ -344,13 +360,13 @@ function ProjectDetails() {
 					<div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/10 to-transparent" />
 					<div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-3">
 						<div>
-							<p className="text-sm text-white/70">مشروع دبي الجنوب</p>
+							<p className="text-sm text-white/70">{zoneLabel}</p>
 							<h1 className="text-2xl font-bold text-white">{project.name || project.title}</h1>
 							{project.name_en ? <p className="text-sm text-white/70">{project.name_en}</p> : null}
 						</div>
 						<div className="flex flex-wrap items-center gap-2">
 							{statusBadge(project.status)}
-							{zoneBadge(inferZone(project))}
+							{zoneBadge(zone)}
 							<div className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white shadow-inner shadow-black/30">
 								{formatMonth(project.date)}
 							</div>

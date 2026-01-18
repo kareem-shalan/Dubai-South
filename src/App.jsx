@@ -20,7 +20,7 @@ function formatMonth(value) {
 	if (!value) return '—';
 	const normalized = value.length === 7 ? `${value}-01` : value;
 	const parsed = new Date(normalized);
-	return dateFormatter.format(parsed); 
+	return dateFormatter.format(parsed);
 }
 
 function formatRoi(value) {
@@ -51,10 +51,10 @@ function PaymentPlanDisplay({ plan, dense = false }) {
 		<div className={`flex flex-wrap gap-2 ${dense ? 'text-xs' : 'text-sm'}`}>
 			{hasPercentages
 				? plan.percentages.map((step, idx) => (
-						<span key={`${step.label || 'step'}-${idx}`} className={badgeClass}>
-							{step.value}% {step.label || ''}
-						</span>
-				  ))
+					<span key={`${step.label || 'step'}-${idx}`} className={badgeClass}>
+						{step.value}% {step.label || ''}
+					</span>
+				))
 				: null}
 			{typeof plan.installments === 'number' ? (
 				<span className={badgeClass}>عدد الدفعات: {plan.installments}</span>
@@ -77,9 +77,8 @@ function LocationLink({ project, inline = false }) {
 				href={project.map_url}
 				target="_blank"
 				rel="noreferrer"
-				className={`inline-flex items-center gap-2 text-amber-200 underline-offset-4 hover:text-amber-100 ${
-					inline ? '' : 'text-sm'
-				}`}
+				className={`inline-flex items-center gap-2 text-amber-200 underline-offset-4 hover:text-amber-100 ${inline ? '' : 'text-sm'
+					}`}
 			>
 				<span>{label}</span>
 				<span className="text-xs rounded-3xl bg-red-500/10 px-2 whitespace-nowrap py-1 text-red-500 justify-center items-center flex ">افتح الخريطة ↗</span>
@@ -181,9 +180,9 @@ function metricFromProjects() {
 	const averagePrice =
 		safeProjects.length > 0
 			? Math.round(
-					safeProjects.reduce((sum, project) => sum + (project.price_dirham || 0), 0) /
-						safeProjects.length,
-			  )
+				safeProjects.reduce((sum, project) => sum + (project.price_dirham || 0), 0) /
+				safeProjects.length,
+			)
 			: 0;
 
 	return { totalArea, totalUnits, averagePrice };
@@ -300,7 +299,7 @@ function ProjectCard({ project, index }) {
 					<dt className="text-white/60">المساحة الكلية</dt>
 					<dd className="font-semibold">{formatArea(project.total_area)}</dd>
 				</div>
-				
+
 			</dl>
 
 			<section className="relative mt-4 space-y-3 ">
@@ -372,7 +371,7 @@ function ProjectDetails() {
 				<div className="relative h-72 w-full bg-black/40">
 					{project.image_url ? (
 						<img
-						
+
 							src={project.image_url}
 							alt={project.name || project.title}
 							className="h-full w-full object-cover"
@@ -533,15 +532,66 @@ function HomeLayout() {
 							<h1 className="text-3xl font-bold leading-tight text-white md:text-4xl animate-pulse transition-all duration-100 ">
 								Dubai South Projects
 							</h1>
-							
+							<div className="flex flex-col justify-start items-start gap-3 px-4 py-2 text-sm text-white/80 ">
+
+								{/*  */}
+								<div className="flex items-center gap-3 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm text-white/80 shadow-inner shadow-black/30">
+									<span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.8)]" />
+									<span className='animate-pulse transition-all duration-100 '>Kareem-Shalan
+
+									</span>
+
+								</div>
+								{/*  */}
+								<div className="flex items-center gap-3 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm text-white/80 shadow-inner shadow-black/30">
+									<span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.8)]" />
+									<a target='_blank' href={"https://my-portfolio-iota-seven-84.vercel.app/"} className='animate-pulse transition-all duration-100 '> https://my-portfolio-iota-seven-84.vercel.app/
+
+									</a>
+
+								</div>
+
+							</div>
+
+							<ul className="grid gap-2 sm:grid-cols-3">
+								<li>
+									<a
+										href="https://dxbinteract.com/"
+										target="_blank"
+										rel="noreferrer"
+										className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white shadow-inner shadow-black/30 transition hover:-translate-y-[2px] hover:border-amber-200/40 hover:bg-white/10"
+									>
+										<span className="font-semibold">DXB Interact</span>
+										<span className="text-xs text-amber-200">↗</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://dxboffplan.com/"
+										target="_blank"
+										rel="noreferrer"
+										className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white shadow-inner shadow-black/30 transition hover:-translate-y-[2px] hover:border-amber-200/40 hover:bg-white/10"
+									>
+										<span className="font-semibold">DXB Offplan </span>
+										<span className="text-xs text-amber-200">↗</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.propertyfinder.ae/"
+										target="_blank"
+										rel="noreferrer"
+										className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white shadow-inner shadow-black/30 transition hover:-translate-y-[2px] hover:border-amber-200/40 hover:bg-white/10"
+									>
+										<span className="font-semibold">Property Finder</span>
+										<span className="text-xs text-amber-200">↗</span>
+									</a>
+								</li>
+							</ul>
+
 						</div>
-						<div className="flex items-center gap-3 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm text-white/80 shadow-inner shadow-black/30">
-							<span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.8)]" />
-							<span className='animate-pulse transition-all duration-100 '> Kareem-Shalan 
-								
-								 </span>
-						
-						</div>
+
+
 					</div>
 					<div className="mt-6 grid gap-3 sm:grid-cols-2">
 						<MetricCard label="متوسط السعر الابتدائي" value={formatPrice(averagePrice)} />

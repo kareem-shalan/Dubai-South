@@ -599,7 +599,7 @@ function HomeLayout() {
 					</div>
 				</header>
 				<header className="rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 px-6 py-7 shadow-2xl shadow-black/40 backdrop-blur">
-					<img loading='lazy' decoding='async' className='rounded-2xl' src="../public/Dubai-3D-map-with-Azizi-developments.png" alt="" />
+					<img loading='eager' decoding='async' className='rounded-2xl' src="../public/Dubai-3D-map-with-Azizi-developments.png" alt="" />
 
 				</header>
 

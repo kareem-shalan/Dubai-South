@@ -145,6 +145,7 @@ function safeSlugFromName(name) {
 }
 
 const projects = rawData.filter((item) => Array.isArray(item.units));
+
 const developersData = rawData.flatMap((item) => item.developers || []);
 const zoneDeveloperNames = Array.from(
 	new Set(
@@ -251,14 +252,14 @@ function ProjectCard({ project, index }) {
 						<p className="text-sm text-white/70">{zoneLabel}</p>
 						<h3 className="text-lg font-semibold whitespace-nowrap leading-tight text-white">{projectName}</h3>
 						{project.name_en ? (
-							<p className="text-[10px]  whitespace-nowrap  text-white/70 underline ">{project.name_en}</p>
+							<p className="text-[13px]  whitespace-nowrap  text-white/70 underline ">{project.name_en}</p>
 						) : null}
 						{project.title && project.title !== projectName ? (
-							<p className="text-xs  text-white/70">{project.title}</p>
+							<p className="text-xs   text-white/70">{project.title}</p>
 						) : null}
 					</div>
 				</div>
-				<div className="flex items-center gap-2 whitespace-nowrap">
+				<div className="flex items-center gap-2 xl:whitespace-nowrap  xl:flex-col">
 					{statusBadge(project.status)}
 					{zoneBadge(zone)}
 					<div className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white shadow-inner shadow-black/30">
@@ -371,10 +372,12 @@ function ProjectDetails() {
 				<div className="relative h-72 w-full bg-black/40">
 					{project.image_url ? (
 						<img
+						
 							src={project.image_url}
 							alt={project.name || project.title}
 							className="h-full w-full object-cover"
 							loading="lazy"
+							decoding='async'
 						/>
 					) : null}
 					<div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/10 to-transparent" />

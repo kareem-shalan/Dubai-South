@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "city": "6 October",
+    "currency": "EGP",
+    "last_updated": "2026-01-19",
+    "notes": "عدّل المشاريع داخل projects. اترك القيم غير المتوفرة كـ null أو نص فارغ."
+  },
+  "project_schema": {
+    "name": "اسم المشروع",
+    "developer": "اسم المطوّر",
+    "project_type": "كمبوند / عمارات / مجتمع مغلق",
+    "unit_types": ["شقق", "تاون هاوس", "فلل"],
+    "status": "Off Plan | Under Construction | Ready",
+    "location": {
+      "district": "المنطقة داخل 6 أكتوبر",
+      "description": "وصف مختصر للموقع",
+      "nearby_landmarks": ["مول مصر", "جامعة زويل"],
+      "distance_to_landmarks_minutes": {
+        "مول مصر": null,
+        "جامعة زويل": null
+      },
+      "map_url": "https://maps.google.com/..."
+    },
+    "areas_sqm": { "min": null, "max": null, "notes": "" },
+    "prices_egp": { "unit_total_from": null, "price_per_sqm_from": null, "notes": "" },
+    "payment_plan": { "down_payment_pct": null, "installment_years": null, "notes": "" },
+    "handover": { "date": "", "status": "" },
+    "features": ["أمن وحراسة", "مساحات خضراء"],
+    "image_url": ""
+  },
+  "projects": [
+    {
+      "name": "O West",
+      "developer": "أوراسكوم للتنمية",
+      "project_type": "كمبوند مغلق",
+      "unit_types": ["شقق", "بنتهاوس", "دوبلكس", "فلل", "تاون هاوس", "توين هاوس"],
+      "status": "Under Construction",
+      "location": {
+        "district": "طريق الواحات خلف مدينة الإنتاج الإعلامي",
+        "description": "قريب من مول مصر",
+        "nearby_landmarks": ["مول مصر", "مدينة الإنتاج الإعلامي"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 117, "max": 520, "notes": "شقق 117–311 م²، فلل 207–520 م²" },
+      "prices_egp": {
+        "unit_total_from": 2479000,
+        "price_per_sqm_from": 21188,
+        "notes": "سعر المتر يختلف حسب النوع والموقع داخل المشروع (حتى ~34,526 ج/م²)"
+      },
+      "payment_plan": { "down_payment_pct": 5, "installment_years": 9, "notes": "بديل: 10% مقدم + 7 سنوات" },
+      "handover": { "date": "", "status": "بعض الوحدات جاهزة" },
+      "features": ["خدمات متكاملة", "مدارس ومستشفيات", "مساحات خضراء واسعة"],
+      "image_url": "https://th.bing.com/th/id/R.f38805fbcea72f46dd64265d05594a9d?rik=hOr273bEgCnMtA&pid=ImgRaw&r=0"
+    },
+    {
+      "name": "Kenz",
+      "developer": "فرست جروب",
+      "project_type": "كمبوند عمارات",
+      "unit_types": ["شقق"],
+      "status": "Ready",
+      "location": {
+        "district": "حدائق أكتوبر",
+        "description": "قرب مول مصر وميدان جهينة",
+        "nearby_landmarks": ["مول مصر", "ميدان جهينة"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 145, "max": 291, "notes": "" },
+      "prices_egp": {
+        "unit_total_from": 4700000,
+        "price_per_sqm_from": 25683,
+        "notes": "وفق إعلان Nawy: شقة 183 م² بسعر 4,700,000 ج (≈ 25,683 ج/م²). https://www.nawy.com/compound/861-kenz-compound/property/48258-apartment-for-sale-in-kenz-compound-6-october"
+      },
+      "payment_plan": { "down_payment_pct": 15, "installment_years": 8, "notes": "" },
+      "handover": { "date": "", "status": "تسليم مرحلي" },
+      "features": ["سعر متر منخفض نسبيًا", "مناسب للاستثمار المتوسط"],
+      "image_url": "https://downtown-eg.com/wp-content/uploads/2024/03/4660875-92a00o.jpg"
+    },
+    {
+      "name": "Neom 6 October",
+      "developer": "المطورون العرب القابضة",
+      "project_type": "كمبوند متكامل",
+      "unit_types": ["شقق", "استوديو", "دوبلكس", "توين هاوس", "فلل"],
+      "status": "Under Construction",
+      "location": {
+        "district": "قلب 6 أكتوبر",
+        "description": "قرب مول مصر",
+        "nearby_landmarks": ["مول مصر"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 45, "max": 744, "notes": "" },
+      "prices_egp": {
+        "unit_total_from": 4176000,
+        "price_per_sqm_from": null,
+        "notes": "فلل من ≈ 13,720,000 ج"
+      },
+      "payment_plan": { "down_payment_pct": 5, "installment_years": 10, "notes": "مقدم 5–10% وتقسيط 8–10 سنوات" },
+      "handover": { "date": "2026", "status": "متوقع 2026" },
+      "features": ["مساحات خضراء ضخمة", "مرافق متكاملة"],
+      "image_url": "https://korastsherot.com/wp-content/uploads/2024/05/Features-of-Neom-6th-October-Compound-768x424.webp"
+    },
+    {
+      "name": "Sun Capital",
+      "developer": "Arabia Developments",
+      "project_type": "كمبوند متكامل",
+      "unit_types": ["شقق", "تاون هاوس", "فلل", "توين هاوس"],
+      "status": "Under Construction",
+      "location": {
+        "district": "طريق الفيوم",
+        "description": "قريب نسبيًا من مول مصر وجامعة زويل",
+        "nearby_landmarks": ["مول مصر", "جامعة زويل"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 90, "max": 379, "notes": "" },
+      "prices_egp": { "unit_total_from": null, "price_per_sqm_from": null, "notes": "" },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 10, "notes": "حتى 10 سنوات" },
+      "handover": { "date": "", "status": "تسليم مرحلي" },
+      "features": ["كمبوند خدمي كبير", "مرافق تعليمية وطبية وترفيهية"],
+      "image_url": "https://th.bing.com/th/id/R.3d3b002679e65ba31a37c7487b8ad993?rik=kRAnRw7NKyVzRg&pid=ImgRaw&r=0"
+    },
+    {
+      "name": "Tesla Residence",
+      "developer": "تسلا للتطوير",
+      "project_type": "كمبوند",
+      "unit_types": ["شقق"],
+      "status": "Off Plan",
+      "location": {
+        "district": "طريق الواحات أمام MSA",
+        "description": "قريب من جامعة زويل",
+        "nearby_landmarks": ["جامعة زويل", "جامعة MSA"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 94, "max": null, "notes": "" },
+      "prices_egp": {
+        "unit_total_from": 2679000,
+        "price_per_sqm_from": 28500,
+        "notes": ""
+      },
+      "payment_plan": { "down_payment_pct": 20, "installment_years": 12, "notes": "" },
+      "handover": { "date": "", "status": "غير معلن" },
+      "features": ["موقع استثماري قوي", "خدمات متكاملة"],
+      "image_url": "https://tse1.mm.bing.net/th/id/OIF.KE9mjeNL6EHB25CbOOyoqQ?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "31 West",
+      "developer": "M2 Developments",
+      "project_type": "كمبوند",
+      "unit_types": ["شقق"],
+      "status": "Off Plan",
+      "location": {
+        "district": "قلب 6 أكتوبر",
+        "description": "قرب المحاور ومول مصر ومول العرب",
+        "nearby_landmarks": ["مول مصر", "مول العرب"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 70, "max": null, "notes": "" },
+      "prices_egp": { "unit_total_from": 7600000, "price_per_sqm_from": null, "notes": "" },
+      "payment_plan": { "down_payment_pct": 5, "installment_years": 10, "notes": "" },
+      "handover": { "date": "", "status": "غير معلن" },
+      "features": ["موقع محوري"],
+      "image_url": "https://tse4.mm.bing.net/th/id/OIP.iLteN-v0_QQo0kDFI33ptwHaEW?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Badya",
+      "developer": "Palm Hills",
+      "project_type": "مدينة متكاملة",
+      "unit_types": ["شقق", "وحدات متنوعة"],
+      "status": "Under Construction",
+      "location": {
+        "district": "التوسعات الشرقية",
+        "description": "",
+        "nearby_landmarks": [],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 135, "max": null, "notes": "" },
+      "prices_egp": { "unit_total_from": null, "price_per_sqm_from": 13750, "notes": "≈ 13,750–14,457 ج/م²" },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 8, "notes": "" },
+      "handover": { "date": "", "status": "بعد ~5 سنوات" },
+      "features": ["مدينة ذكية", "بنية متقدمة"],
+      "image_url": "https://tse3.mm.bing.net/th/id/OIP.tUaPf9z2JdxoGeEZLK6iUQHaFr?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Ishraqa 6 October",
+      "developer": "التعمير والإسكان",
+      "project_type": "كمبوند",
+      "unit_types": ["شقق", "بنتهاوس", "شقق بحدائق"],
+      "status": "Ready",
+      "location": {
+        "district": "التوسعات الشمالية",
+        "description": "",
+        "nearby_landmarks": [],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 112, "max": 227, "notes": "" },
+      "prices_egp": { "unit_total_from": 2350000, "price_per_sqm_from": null, "notes": "" },
+      "payment_plan": { "down_payment_pct": 20, "installment_years": 5, "notes": "" },
+      "handover": { "date": "", "status": "تم التسليم" },
+      "features": ["مشروع متكامل", "خدمات جيدة"],
+      "image_url": "https://tse3.mm.bing.net/th/id/OIP.8sTkeoDI_kdvSY5JSC0jJQHaEW?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Keeva",
+      "developer": "Landmark Sabour",
+      "project_type": "كمبوند فلل",
+      "unit_types": ["فلل", "توين هاوس"],
+      "status": "Off Plan",
+      "location": {
+        "district": "غرب أكتوبر",
+        "description": "",
+        "nearby_landmarks": [],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": null, "max": null, "notes": "" },
+      "prices_egp": { "unit_total_from": 16000000, "price_per_sqm_from": null, "notes": "فيلات من ~16–18 مليون ج" },
+      "payment_plan": { "down_payment_pct": 5, "installment_years": 9, "notes": "" },
+      "handover": { "date": "", "status": "غير معلن" },
+      "features": ["مشروع فلل فاخر"],
+      "image_url": "https://tse2.mm.bing.net/th/id/OIP.VW83LZ3GMAViV1SiVwrqpwHaEV?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Ever West",
+      "developer": "Cred Developments",
+      "project_type": "كمبوند فاخر",
+      "unit_types": ["شقق فاخرة"],
+      "status": "Off Plan",
+      "location": {
+        "district": "قرب المحاور الرئيسية",
+        "description": "",
+        "nearby_landmarks": [],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": null, "max": null, "notes": "" },
+      "prices_egp": { "unit_total_from": 13500000, "price_per_sqm_from": null, "notes": "≈ 13.5–15.8 مليون ج" },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 8, "notes": "" },
+      "handover": { "date": "", "status": "~4 سنوات" },
+      "features": ["تشطيب فاخر", "استهداف شريحة عالية"],
+      "image_url": "https://th.bing.com/th/id/OIP.nx4ir0YbZ5io1SQBwII3SgHaE6?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "طرح إسكان حكومي – القطعة 75 جنوب الأحياء",
+      "developer": "وزارة الإسكان",
+      "project_type": "عمارات سكنية",
+      "unit_types": ["شقق"],
+      "status": "Ready",
+      "location": {
+        "district": "جنوب الأحياء",
+        "description": "",
+        "nearby_landmarks": [],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 76, "max": 92, "notes": "" },
+      "prices_egp": { "unit_total_from": null, "price_per_sqm_from": 14000, "notes": "14,000–16,000 ج/م²" },
+      "payment_plan": { "down_payment_pct": null, "installment_years": 15, "notes": "مقدم 150,000 ج + تقسيط 5–15 سنة" },
+      "handover": { "date": "", "status": "وفق شروط الطرح" },
+      "features": ["سعر مناسب", "وحدات كاملة التشطيب"],
+      "image_url": "https://tse4.mm.bing.net/th/id/OIP.3NGBsPLsb9t7xzBviNgnUAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+    }
+  ]
+}

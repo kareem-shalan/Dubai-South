@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route, useNavigate, useParams, Link } from 'react-router-dom';
 import rawData from './data/dubaiSouthProjects.json';
+import OctoberProjectsPage from './pages/OctoberProjects';
+import OctoberProjectDetails from './pages/OctoberProjectDetails';
 
 const priceFormatter = new Intl.NumberFormat('ar-AE');
 const areaFormatter = new Intl.NumberFormat('ar-AE');
@@ -525,6 +527,21 @@ function HomeLayout() {
 		<div className="min-h-screen  bg-slate-950 text-white">
 			<div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_20%_20%,rgba(56,189,248,0.18),transparent_30%),radial-gradient(circle_at_80%_10%,rgba(248,180,0,0.16),transparent_25%),radial-gradient(circle_at_50%_80%,rgba(59,130,246,0.14),transparent_25%)]" />
 			<main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-10 md:px-8">
+				<nav className="rounded-full border border-white/10 bg-white/5 px-4 py-3 text-sm text-white/80 shadow-inner shadow-black/30 backdrop-blur">
+					<div className="flex flex-wrap items-center justify-between gap-3">
+						<div className="flex items-center gap-3">
+							<span className="text-xs uppercase tracking-[0.2em] text-white/60">Navigation</span>
+							<span className="text-white/50">|</span>
+							<Link className="text-white hover:text-amber-200" to="/">
+								Dubai South
+							</Link>
+							<Link className="text-white hover:text-amber-200" to="/october">
+								6 October
+							</Link>
+						</div>
+						<div className="text-xs text-white/50">Real Estate Dashboard</div>
+					</div>
+				</nav>
 				<header className="rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 px-6 py-7 shadow-2xl shadow-black/40 backdrop-blur">
 					<div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
 						<div className="space-y-2">
@@ -551,6 +568,16 @@ function HomeLayout() {
 
 								</div>
 
+							</div>
+
+							<div className="flex flex-wrap gap-2">
+								<Link
+									to="/october"
+									className="inline-flex items-center gap-2 rounded-full border border-amber-300/40 bg-amber-300/10 px-4 py-2 text-sm text-amber-100 shadow-inner shadow-black/30 hover:bg-amber-300/20"
+								>
+									<span>مشاريع 6 أكتوبر</span>
+									<span className="text-xs">↗</span>
+								</Link>
 							</div>
 
 							<ul className="grid gap-2 sm:grid-cols-3">
@@ -812,6 +839,8 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<HomeLayout />} />
+				<Route path="/october" element={<OctoberProjectsPage />} />
+				<Route path="/october/:slug" element={<OctoberProjectDetails />} />
 				<Route path="/projects/:slug" element={<ProjectDetails />} />
 			</Routes>
 		</BrowserRouter>

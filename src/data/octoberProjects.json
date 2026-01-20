@@ -2,7 +2,7 @@
   "meta": {
     "city": "6 October",
     "currency": "EGP",
-    "last_updated": "2026-01-19",
+    "last_updated": "2026-01-20",
     "notes": "عدّل المشاريع داخل projects. اترك القيم غير المتوفرة كـ null أو نص فارغ."
   },
   "project_schema": {
@@ -379,6 +379,100 @@
       "handover": { "date": "", "status": "~4 سنوات" },
       "features": ["تشطيب فاخر", "استهداف شريحة عالية"],
       "image_url": "https://th.bing.com/th/id/OIP.nx4ir0YbZ5io1SQBwII3SgHaE6?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Rock Eden",
+      "developer": "البطل للتطوير العقاري",
+      "project_type": "كمبوند مغلق",
+      "unit_types": ["شقق", "تاون هاوس", "دوبلكس"],
+      "status": "Under Construction",
+      "location": {
+        "district": "حدائق أكتوبر",
+        "description": "موقع مركزي داخل 6 أكتوبر",
+        "nearby_landmarks": [],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 160, "max": 296, "notes": "شقق 3–4 غرف؛ شقق فاخرة حتى 215–220 م²، وتاون هاوس/دوبلكس بمساحات أكبر" },
+      "prices_egp": {
+        "unit_total_from": 7200000,
+        "price_per_sqm_from": 30000,
+        "notes": "أسعار تقديرية من السوق: 7,200,000 ج للوحدات الكبيرة، وقد تصل 8,500,000+ ج. مثال سوقي: شقة 160 م² ~5,000,000 ج (بيع مباشر). سعر المتر تقريبي 30,000–50,000 ج/م² حسب التشطيب والموقع."
+      },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 7, "notes": "تقسيط حتى 6–7 سنوات حسب العرض" },
+      "unit_price_breakdown": [
+        { "unit_type": "3BR", "variant": "", "area_sqm": 160, "price_egp": 7200000, "notes": "نطاقات ومساحات تقريبية" },
+        { "unit_type": "4BR", "variant": "", "area_sqm": 296, "price_egp": 8500000, "notes": "قد تزيد حسب التشطيب والموقع" }
+      ],
+      "handover": { "date": "", "status": "تحت الإنشاء / بعض الوحدات جاهزة" },
+      "features": ["مشروع كبير في حدائق أكتوبر", "وحدات متسعة", "قرب محاور رئيسية", "أمن وحراسة", "نادي وملاعب"],
+      "image_url": "https://tse2.mm.bing.net/th/id/OIP.3OLPBTHU2xzHf2Onahu7GQHaEH?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Seven Residence",
+      "developer": "Harby Group Developments",
+      "project_type": "كمبوند مغلق",
+      "unit_types": ["شقق"],
+      "status": "Under Construction",
+      "location": {
+        "district": "October Gardens",
+        "description": "شارع أحمد زويل، مقابل جامعة زويل وقريب من مول مصر",
+        "nearby_landmarks": ["جامعة زويل", "مول مصر", "الطريق الدائري"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 109, "max": 178, "notes": "2 غرف من 109 م²، 3 غرف 130–161 م²، 4 غرف من 178 م²" },
+      "prices_egp": {
+        "unit_total_from": 3300000,
+        "price_per_sqm_from": 30000,
+        "notes": "سعر المتر تقريبي 30,000–34,000 ج/م². الأسعار تقديرية حسب آخر تحديثات التسويق."
+      },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 10, "notes": "" },
+      "unit_price_breakdown": [
+        { "unit_type": "2BR", "variant": "", "area_sqm": 109, "price_egp": 3300000, "notes": "" },
+        { "unit_type": "3BR", "variant": "", "area_sqm": 141, "price_egp": 4200000, "notes": "قد تصل 5,000,000 ج حسب المساحة 141–161 م²" },
+        { "unit_type": "4BR", "variant": "", "area_sqm": 178, "price_egp": 5500000, "notes": "قد تصل 6,000,000 ج" }
+      ],
+      "handover": { "date": "", "status": "تحت الإنشاء / Off Plan" },
+      "features": ["موقع ممتاز", "قريب من مول مصر", "تشطيبات حديثة", "تصميمات عصرية"],
+      "image_url": "https://tse2.mm.bing.net/th/id/OIP.SjCv0avSTC4ie2l-lLZlGQHaFZ?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Westra 6 October",
+      "developer": "Kastoria Development",
+      "project_type": "كمبوند سكني",
+      "unit_types": ["شقق"],
+      "status": "Under Construction",
+      "location": {
+        "district": "شارع أحمد زويل - تقاطع طريق الواحات",
+        "description": "قريب من مول مصر وجامعة MSA",
+        "nearby_landmarks": ["مول مصر", "جامعة MSA", "طريق الواحات"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 80, "max": 203, "notes": "شقق صغيرة حتى وحدات عائلية واسعة" },
+      "prices_egp": {
+        "unit_total_from": null,
+        "price_per_sqm_from": 30000,
+        "notes": "سعر المتر 30,000–34,000 ج/م² حسب المساحة والموقع داخل المشروع."
+      },
+      "payment_plan": {
+        "down_payment_pct": 10,
+        "installment_years": 8,
+        "notes": "وديعة حجز 100,000 ج (قابلة للاسترداد)."
+      },
+      "handover": { "date": "", "status": "تسليم خلال 2–3 سنوات" },
+      "features": ["موقع استراتيجي", "خطط سداد مرنة", "موقف سيارات", "مناطق مفتوحة", "أمن وحراسة"],
+      "image_url": ""
     },
     {
       "name": "طرح إسكان حكومي – القطعة 75 جنوب الأحياء",

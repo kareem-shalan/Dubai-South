@@ -475,6 +475,90 @@
       "image_url": "https://www.diamondgroup-eg.com/uploads/projects/276/images/default/main/d404ae09b722b1d265ec4f236fecd6dc.jpg?lastModified=1720711591"
     },
     {
+      "name": "Ashgar City",
+      "developer": "IGI Real Estate",
+      "project_type": "مجتمع سكني متكامل",
+      "unit_types": ["شقق"],
+      "status": "Under Construction",
+      "location": {
+        "district": "حي الأشجار - طريق الواحات",
+        "description": "قريب من مول مصر ومدينة الإنتاج الإعلامي وطريق الفيوم",
+        "nearby_landmarks": ["مول مصر", "مدينة الإنتاج الإعلامي", "طريق الفيوم", "الطريق الدائري"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 80, "max": 236, "notes": "شقق فقط بمساحات متنوعة" },
+      "prices_egp": {
+        "unit_total_from": 4500000,
+        "price_per_sqm_from": 35000,
+        "notes": "نطاقات سعرية تقديرية 2024/2025: 4.5–8.0+ مليون. سعر المتر 35,000–45,000 ج/م² حسب الطرح والتشطيب."
+      },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 8, "notes": "" },
+      "unit_price_breakdown": [],
+      "handover": { "date": "", "status": "تسليم مرحلي" },
+      "features": ["نادي أشجار سيتي", "مراكز تجارية", "مساحات خضراء", "أمن وحراسة 24/7"],
+      "image_url": "https://tse4.mm.bing.net/th/id/OIP.Avo2qqEFhIZETwr2QjkVmwHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Ashgar Heights",
+      "developer": "IGI Real Estate",
+      "project_type": "كمبوند سكني",
+      "unit_types": ["شقق", "تاون هاوس", "فلل"],
+      "status": "Under Construction",
+      "location": {
+        "district": "حي الأشجار",
+        "description": "خلف مدينة الإنتاج الإعلامي وقريب من طريق الواحات",
+        "nearby_landmarks": ["مدينة الإنتاج الإعلامي", "طريق الواحات"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": 100, "max": 300, "notes": "الشقق من ~100 م²؛ الفلل والتاون هاوس تتجاوز 300 م²" },
+      "prices_egp": {
+        "unit_total_from": 5000000,
+        "price_per_sqm_from": null,
+        "notes": "الشقق تبدأ تقريبًا من 5,000,000 ج. التاون هاوس/فلل من ~12,000,000 ج حسب النوع."
+      },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 8, "notes": "تقسيط حتى 7–8 سنوات حسب الطرح" },
+      "unit_price_breakdown": [],
+      "handover": { "date": "", "status": "تسليم مرحلي" },
+      "features": ["كثافة أقل", "لاندسكيب", "قرب من نادي حي الأشجار"],
+      "image_url": "https://tse1.mm.bing.net/th/id/OIP.JJsTZnLXxgb2C4QFc93hWwHaDX?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Hai Al Ashgar",
+      "developer": "IGI Real Estate",
+      "project_type": "مجتمع سكني",
+      "unit_types": ["شقق", "توين هاوس", "فلل"],
+      "status": "Ready",
+      "location": {
+        "district": "حي الأشجار - طريق الواحات",
+        "description": "أمام دريم لاند وقريب من الطرق الرئيسية",
+        "nearby_landmarks": ["دريم لاند", "طريق الواحات"],
+        "distance_to_landmarks_minutes": {
+          "مول مصر": null,
+          "جامعة زويل": null
+        },
+        "map_url": ""
+      },
+      "areas_sqm": { "min": null, "max": null, "notes": "وحدات إعادة بيع بمساحات متنوعة" },
+      "prices_egp": {
+        "unit_total_from": 4000000,
+        "price_per_sqm_from": null,
+        "notes": "أسعار إعادة البيع: الشقق تبدأ من ~4,000,000 ج؛ الفلل/توين هاوس من ~15,000,000 ج حسب التشطيب."
+      },
+      "payment_plan": { "down_payment_pct": null, "installment_years": null, "notes": "حسب المالك/السوق الثانوي" },
+      "unit_price_breakdown": [],
+      "handover": { "date": "", "status": "جاهز للسكن (إعادة بيع)" },
+      "features": ["نادي حي الأشجار", "منطقة تجارية", "قرب مدارس وخدمات"],
+      "image_url": "https://tse1.mm.bing.net/th/id/OIP.NCH5-kLYkNJwx1L_B5w5RQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
       "name": "طرح إسكان حكومي – القطعة 75 جنوب الأحياء",
       "developer": "وزارة الإسكان",
       "project_type": "عمارات سكنية",

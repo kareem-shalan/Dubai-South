@@ -24,6 +24,15 @@
     "areas_sqm": { "min": null, "max": null, "notes": "" },
     "prices_egp": { "unit_total_from": null, "price_per_sqm_from": null, "notes": "" },
     "payment_plan": { "down_payment_pct": null, "installment_years": null, "notes": "" },
+    "unit_price_breakdown": [
+      {
+        "unit_type": "1BR",
+        "variant": "",
+        "area_sqm": null,
+        "price_egp": null,
+        "notes": ""
+      }
+    ],
     "handover": { "date": "", "status": "" },
     "features": ["أمن وحراسة", "مساحات خضراء"],
     "image_url": ""
@@ -45,13 +54,19 @@
         },
         "map_url": ""
       },
-      "areas_sqm": { "min": 117, "max": 520, "notes": "شقق 117–311 م²، فلل 207–520 م²" },
+      "areas_sqm": { "min": 68, "max": 520, "notes": "شقق 117–311 م²، فلل 207–520 م²" },
       "prices_egp": {
         "unit_total_from": 2479000,
-        "price_per_sqm_from": 21188,
-        "notes": "سعر المتر يختلف حسب النوع والموقع داخل المشروع (حتى ~34,526 ج/م²)"
+        "price_per_sqm_from": 111764,
+        "notes": "سعر المتر يختلف حسب النوع والموقع داخل المشروع (حتى ~34,526 ج/م²). تحديثات أسعار مطلوبة: 1BR 7,600,000 ج. 2BR Sky 120م: 9,900,000 ج. 2BR Ground 130م: 12,100,100 ج. 3BR Ground 140م: 15,700,000 ج."
       },
       "payment_plan": { "down_payment_pct": 5, "installment_years": 9, "notes": "بديل: 10% مقدم + 7 سنوات" },
+      "unit_price_breakdown": [
+        { "unit_type": "1BR", "variant": "", "area_sqm": null, "price_egp": 7600000, "notes": "" },
+        { "unit_type": "2BR", "variant": "Sky", "area_sqm": 120, "price_egp": 9900000, "notes": "" },
+        { "unit_type": "2BR", "variant": "Ground", "area_sqm": 130, "price_egp": 12100100, "notes": "" },
+        { "unit_type": "3BR", "variant": "Ground", "area_sqm": 140, "price_egp": 15700000, "notes": "" }
+      ],
       "handover": { "date": "", "status": "بعض الوحدات جاهزة" },
       "features": ["خدمات متكاملة", "مدارس ومستشفيات", "مساحات خضراء واسعة"],
       "image_url": "https://th.bing.com/th/id/R.f38805fbcea72f46dd64265d05594a9d?rik=hOr273bEgCnMtA&pid=ImgRaw&r=0"
@@ -79,6 +94,9 @@
         "notes": "وفق إعلان Nawy: شقة 183 م² بسعر 4,700,000 ج (≈ 25,683 ج/م²). https://www.nawy.com/compound/861-kenz-compound/property/48258-apartment-for-sale-in-kenz-compound-6-october"
       },
       "payment_plan": { "down_payment_pct": 15, "installment_years": 8, "notes": "" },
+      "unit_price_breakdown": [
+        { "unit_type": "3BR", "variant": "", "area_sqm": 182, "price_egp": 4700000, "notes": "" }
+      ],
       "handover": { "date": "", "status": "تسليم مرحلي" },
       "features": ["سعر متر منخفض نسبيًا", "مناسب للاستثمار المتوسط"],
       "image_url": "https://downtown-eg.com/wp-content/uploads/2024/03/4660875-92a00o.jpg"
@@ -87,12 +105,12 @@
       "name": "Neom 6 October",
       "developer": "المطورون العرب القابضة",
       "project_type": "كمبوند متكامل",
-      "unit_types": ["شقق", "استوديو", "دوبلكس", "توين هاوس", "فلل"],
+      "unit_types": ["شقق", "دوبلكس", "تاون هاوس", "توين هاوس", "فلل", "تجاري", "مكاتب إدارية"],
       "status": "Under Construction",
       "location": {
-        "district": "قلب 6 أكتوبر",
-        "description": "قرب مول مصر",
-        "nearby_landmarks": ["مول مصر"],
+        "district": "الكيلو 6 طريق مصر - إسكندرية الصحراوي",
+        "description": "موقع استراتيجي قريب من المتحف المصري الكبير وأهرامات الجيزة",
+        "nearby_landmarks": ["المتحف المصري الكبير", "أهرامات الجيزة", "محور 26 يوليو", "مطار سفنكس الدولي", "ميدان جهينة"],
         "distance_to_landmarks_minutes": {
           "مول مصر": null,
           "جامعة زويل": null
@@ -101,13 +119,31 @@
       },
       "areas_sqm": { "min": 45, "max": 744, "notes": "" },
       "prices_egp": {
-        "unit_total_from": 4176000,
-        "price_per_sqm_from": null,
-        "notes": "فلل من ≈ 13,720,000 ج"
+        "unit_total_from": 1229000,
+        "price_per_sqm_from": 15000,
+        "notes": "شقق من 1,729,000 ج. دوبلكس من 3,130,000 ج. تاون هاوس من 3,500,000 ج. توين هاوس من 4,090,000 ج. فلل من 5,000,000 ج. إداري من 2,019,000 ج. تجاري من 2,500,000 ج. سعر متر: شقق 15,000 ج، دوبلكس 19,085 ج، فلل 20,270 ج، تاون هاوس 22,222 ج، توين هاوس 25,000 ج، إداري 33,550 ج، تجاري 84,095 ج."
       },
-      "payment_plan": { "down_payment_pct": 5, "installment_years": 10, "notes": "مقدم 5–10% وتقسيط 8–10 سنوات" },
-      "handover": { "date": "2026", "status": "متوقع 2026" },
-      "features": ["مساحات خضراء ضخمة", "مرافق متكاملة"],
+      "payment_plan": { "down_payment_pct": 5, "installment_years": 9, "notes": "خصومات تصل إلى 40% عند الدفع كاش. وديعة صيانة 10%." },
+      "unit_price_breakdown": [
+        { "unit_type": "شقق", "variant": "سعر يبدأ من", "area_sqm": null, "price_egp": 1729000, "notes": "" },
+        { "unit_type": "دوبلكس", "variant": "سعر يبدأ من", "area_sqm": null, "price_egp": 3130000, "notes": "" },
+        { "unit_type": "تاون هاوس", "variant": "سعر يبدأ من", "area_sqm": null, "price_egp": 3500000, "notes": "" },
+        { "unit_type": "توين هاوس", "variant": "سعر يبدأ من", "area_sqm": null, "price_egp": 4090000, "notes": "" },
+        { "unit_type": "فلل", "variant": "سعر يبدأ من", "area_sqm": null, "price_egp": 5000000, "notes": "" },
+        { "unit_type": "مكاتب إدارية", "variant": "سعر يبدأ من", "area_sqm": null, "price_egp": 2019000, "notes": "" },
+        { "unit_type": "تجاري", "variant": "سعر يبدأ من", "area_sqm": null, "price_egp": 2500000, "notes": "" }
+      ],
+      "handover": { "date": "2026", "status": "تسليم 2024–2026 حسب المراحل" },
+      "features": [
+        "مول تجاري",
+        "فندق 5 نجوم",
+        "كلوب هاوس",
+        "حمامات سباحة",
+        "ملاعب رياضية",
+        "مناطق للأطفال",
+        "مساحات خضراء واسعة",
+        "أمن وحراسة 24/7"
+      ],
       "image_url": "https://korastsherot.com/wp-content/uploads/2024/05/Features-of-Neom-6th-October-Compound-768x424.webp"
     },
     {
@@ -127,8 +163,13 @@
         "map_url": ""
       },
       "areas_sqm": { "min": 90, "max": 379, "notes": "" },
-      "prices_egp": { "unit_total_from": null, "price_per_sqm_from": null, "notes": "" },
+      "prices_egp": { "unit_total_from": "", "price_per_sqm_from": "80288", "notes": "" },
       "payment_plan": { "down_payment_pct": 10, "installment_years": 10, "notes": "حتى 10 سنوات" },
+      "unit_price_breakdown": [
+        { "unit_type": "Studio", "variant": "", "area_sqm": 36, "price_egp": 4000000, "notes": "" },
+        { "unit_type": "2BR", "variant": "", "area_sqm": 104, "price_egp": 8350000, "notes": "" },
+        { "unit_type": "3BR", "variant": "", "area_sqm": 261, "price_egp": 14394945, "notes": "" }
+      ],
       "handover": { "date": "", "status": "تسليم مرحلي" },
       "features": ["كمبوند خدمي كبير", "مرافق تعليمية وطبية وترفيهية"],
       "image_url": "https://th.bing.com/th/id/R.3d3b002679e65ba31a37c7487b8ad993?rik=kRAnRw7NKyVzRg&pid=ImgRaw&r=0"
@@ -138,26 +179,52 @@
       "developer": "تسلا للتطوير",
       "project_type": "كمبوند",
       "unit_types": ["شقق"],
-      "status": "Off Plan",
+      "status": "Under Construction",
       "location": {
-        "district": "طريق الواحات أمام MSA",
-        "description": "قريب من جامعة زويل",
-        "nearby_landmarks": ["جامعة زويل", "جامعة MSA"],
+        "district": "طريق الواحات",
+        "description": "أمام جامعة MSA وكارفور أكتوبر، قريب من المتحف المصري الكبير",
+        "nearby_landmarks": [
+          "جامعة MSA",
+          "كارفور أكتوبر",
+          "المتحف المصري الكبير",
+          "مول مصر",
+          "محور 26 يوليو",
+          "مدينة الإنتاج الإعلامي",
+          "مستشفى دار الفؤاد",
+          "مستشفى 6 أكتوبر الجامعي"
+        ],
         "distance_to_landmarks_minutes": {
           "مول مصر": null,
           "جامعة زويل": null
         },
         "map_url": ""
       },
-      "areas_sqm": { "min": 94, "max": null, "notes": "" },
+      "areas_sqm": { "min": 95, "max": 186, "notes": "2 غرف 94–103 م²، 3 غرف 121–154 م²، 4 غرف 153–186 م²" },
       "prices_egp": {
-        "unit_total_from": 2679000,
+        "unit_total_from": null,
         "price_per_sqm_from": 28500,
-        "notes": ""
+        "notes": "سعر المتر يبدأ من 28,500 ج/م² وفق بيانات ديسمبر 2025."
       },
-      "payment_plan": { "down_payment_pct": 20, "installment_years": 12, "notes": "" },
-      "handover": { "date": "", "status": "غير معلن" },
-      "features": ["موقع استثماري قوي", "خدمات متكاملة"],
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 12, "notes": "" },
+      "unit_price_breakdown": [
+        { "unit_type": "2BR", "variant": "", "area_sqm": 94, "price_egp": null, "notes": "نطاق 94–103 م²" },
+        { "unit_type": "3BR", "variant": "", "area_sqm": 121, "price_egp": null, "notes": "نطاق 121–154 م²" },
+        { "unit_type": "4BR", "variant": "", "area_sqm": 153, "price_egp": null, "notes": "نطاق 153–186 م²" }
+      ],
+      "handover": { "date": "", "status": "بعد 3 سنوات" },
+      "features": [
+        "كمبوند ذكي",
+        "مساحات خضراء تتجاوز 80%",
+        "منطقة تجارية كبيرة",
+        "مول تجاري",
+        "فندق عالمي",
+        "كلوب هاوس",
+        "حمامات سباحة",
+        "نادي رياضي وجيم",
+        "مناطق للأطفال",
+        "مسارات للمشي والجري",
+        "أمن وحراسة 24/7"
+      ],
       "image_url": "https://tse1.mm.bing.net/th/id/OIF.KE9mjeNL6EHB25CbOOyoqQ?rs=1&pid=ImgDetMain&o=7&rm=3"
     },
     {
@@ -177,9 +244,14 @@
         "map_url": ""
       },
       "areas_sqm": { "min": 70, "max": null, "notes": "" },
-      "prices_egp": { "unit_total_from": 7600000, "price_per_sqm_from": null, "notes": "" },
+      "prices_egp": { "unit_total_from": 7600000, "price_per_sqm_from": "151933", "notes": "" },
       "payment_plan": { "down_payment_pct": 5, "installment_years": 10, "notes": "" },
-      "handover": { "date": "", "status": "غير معلن" },
+      "unit_price_breakdown": [
+        { "unit_type": "1BR", "variant": "", "area_sqm": 90, "price_egp": 13674000, "notes": "" },
+        { "unit_type": "2BR", "variant": "", "area_sqm": 145, "price_egp": 18599784, "notes": "" },
+        { "unit_type": "5BR", "variant": "", "area_sqm": 225, "price_egp": 25486082, "notes": "" }
+      ],
+      "handover": { "date": "2030", "status": "تسليم 2024–2030 حسب المراحل" },
       "features": ["موقع محوري"],
       "image_url": "https://tse4.mm.bing.net/th/id/OIP.iLteN-v0_QQo0kDFI33ptwHaEW?rs=1&pid=ImgDetMain&o=7&rm=3"
     },
@@ -202,6 +274,13 @@
       "areas_sqm": { "min": 135, "max": null, "notes": "" },
       "prices_egp": { "unit_total_from": null, "price_per_sqm_from": 13750, "notes": "≈ 13,750–14,457 ج/م²" },
       "payment_plan": { "down_payment_pct": 10, "installment_years": 8, "notes": "" },
+      "unit_price_breakdown": [
+        { "unit_type": "1BR", "variant": "it well be in 2030", "area_sqm": 63, "price_egp": 6100000, "notes": "" },
+        { "unit_type": "2BR", "variant": "it well be in 2029", "area_sqm": 122, "price_egp": 11405165, "notes": "" },
+        { "unit_type": "3BR", "variant": "it well be in 2030", "area_sqm": 168, "price_egp": 14654564, "notes": "" },
+        { "unit_type": "5BR", "variant": "it ready to move ", "area_sqm": 512, "price_egp": 51548000, "notes": "" },
+        { "unit_type": "7BR", "variant": "it ready to move in 2030", "area_sqm": 466, "price_egp": 48549000, "notes": "" }
+      ],
       "handover": { "date": "", "status": "بعد ~5 سنوات" },
       "features": ["مدينة ذكية", "بنية متقدمة"],
       "image_url": "https://tse3.mm.bing.net/th/id/OIP.tUaPf9z2JdxoGeEZLK6iUQHaFr?rs=1&pid=ImgDetMain&o=7&rm=3"
@@ -245,9 +324,12 @@
         },
         "map_url": ""
       },
-      "areas_sqm": { "min": null, "max": null, "notes": "" },
-      "prices_egp": { "unit_total_from": 16000000, "price_per_sqm_from": null, "notes": "فيلات من ~16–18 مليون ج" },
-      "payment_plan": { "down_payment_pct": 5, "installment_years": 9, "notes": "" },
+      "areas_sqm": { "min": 265, "max": null, "notes": "مساحات الفلل تبدأ من 265 م²" },
+      "prices_egp": { "unit_total_from": 41268000, "price_per_sqm_from": null, "notes": "سعر يبدأ من 41,268,000 ج" },
+      "payment_plan": { "down_payment_pct": 10, "installment_years": 8, "notes": "" },
+      "unit_price_breakdown": [
+        { "unit_type": "فيلا", "variant": "", "area_sqm": 265, "price_egp": 41268000, "notes": "مساحات تبدأ من 265 م²" }
+      ],
       "handover": { "date": "", "status": "غير معلن" },
       "features": ["مشروع فلل فاخر"],
       "image_url": "https://tse2.mm.bing.net/th/id/OIP.VW83LZ3GMAViV1SiVwrqpwHaEV?rs=1&pid=ImgDetMain&o=7&rm=3"
@@ -271,6 +353,29 @@
       "areas_sqm": { "min": null, "max": null, "notes": "" },
       "prices_egp": { "unit_total_from": 13500000, "price_per_sqm_from": null, "notes": "≈ 13.5–15.8 مليون ج" },
       "payment_plan": { "down_payment_pct": 10, "installment_years": 8, "notes": "" },
+      "unit_price_breakdown": [
+        {
+          "unit_type": "3BR",
+          "variant": "Apartment",
+          "area_sqm": 196,
+          "price_egp": null,
+          "notes": "المساحة 196–227 م². مرجع 72494. 3 حمام. تسليم 2030. Developer Sale. Finished."
+        },
+        {
+          "unit_type": "Administrative",
+          "variant": "",
+          "area_sqm": 240,
+          "price_egp": null,
+          "notes": "مرجع 109159. تسليم 2030. Developer Sale. Not finished."
+        },
+        {
+          "unit_type": "Studio",
+          "variant": "Resale",
+          "area_sqm": 37,
+          "price_egp": null,
+          "notes": "مرجع 54629. 1 غرفة نوم، 1 حمام. تسليم 2026. Finished."
+        }
+      ],
       "handover": { "date": "", "status": "~4 سنوات" },
       "features": ["تشطيب فاخر", "استهداف شريحة عالية"],
       "image_url": "https://th.bing.com/th/id/OIP.nx4ir0YbZ5io1SQBwII3SgHaE6?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"

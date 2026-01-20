@@ -4,6 +4,13 @@ import octoberData from '../data/octoberProjects.json';
 const egpFormatter = new Intl.NumberFormat('ar-EG');
 const areaFormatter = new Intl.NumberFormat('ar-EG');
 
+const bedroomLabels = {
+	'1br': 'غرفة واحدة',
+	'2br': 'غرفتين',
+	'3br': '3 غرف',
+	'4br': '4 غرف',
+};
+
 function formatEgp(value) {
 	if (value === null || value === undefined || value === '') return '—';
 	return `${egpFormatter.format(value)} جنيه`;
@@ -43,8 +50,13 @@ function OctoberProjectCard({ project, index }) {
 	const landmarks = project.location?.nearby_landmarks || [];
 	const unitTypes = project.unit_types || [];
 	const features = project.features || [];
+	const unitPriceBreakdown = Array.isArray(project.unit_price_breakdown) ? project.unit_price_breakdown : [];
+	const formatUnitType = (value) => {
+		const key = (value || '').toLowerCase();
+		return bedroomLabels[key] || value || '';
+	};
 	return (
-		<article className="relative overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 p-6 shadow-2xl shadow-black/40 backdrop-blur">
+		<article className="relative overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/10 p-6 shadow-2xl shadow-black/40 backdrop-blur ">
 			<header className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
 				<div className="flex items-center gap-3">
 					<span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-lg font-semibold text-white">
@@ -121,6 +133,33 @@ function OctoberProjectCard({ project, index }) {
 					<dd className="font-semibold">{project.handover?.date || project.handover?.status || '—'}</dd>
 				</div>
 			</dl>
+
+			{unitPriceBreakdown.length ? (
+				<div className="mt-4 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white/80 shadow-inner shadow-black/30">
+					<p className="text-sm font-semibold text-white">أسعار الوحدات المتاحة</p>
+					<div className="mt-2 grid gap-2 sm:grid-cols-2">
+						{unitPriceBreakdown.map((item, idx) => {
+							const labelParts = [
+								formatUnitType(item.unit_type),
+								item.variant,
+								item.area_sqm ? `${areaFormatter.format(item.area_sqm)} م²` : '',
+							]
+								.filter(Boolean)
+								.join(' • ');
+							return (
+								<div
+									key={`${project.name}-unit-${idx}`}
+									className="rounded-2xl border border-white/10 bg-black/30 px-3 py-2 text-xs text-white/70"
+								>
+									<p className="font-semibold text-white">{labelParts || 'وحدة'}</p>
+									<p className="text-amber-200">{formatEgp(item.price_egp)}</p>
+									{item.notes ? <p className="mt-1 text-[11px] text-white/60">{item.notes}</p> : null}
+								</div>
+							);
+						})}
+					</div>
+				</div>
+			) : null}
 
 			{features.length ? (
 				<div className="mt-4">

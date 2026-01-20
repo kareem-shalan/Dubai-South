@@ -4,6 +4,13 @@ import octoberData from '../data/octoberProjects.json';
 const egpFormatter = new Intl.NumberFormat('ar-EG');
 const areaFormatter = new Intl.NumberFormat('ar-EG');
 
+const bedroomLabels = {
+	'1br': 'غرفة واحدة',
+	'2br': 'غرفتين',
+	'3br': '3 غرف',
+	'4br': '4 غرف',
+};
+
 function formatEgp(value) {
 	if (value === null || value === undefined || value === '') return '—';
 	return `${egpFormatter.format(value)} جنيه`;
@@ -44,6 +51,15 @@ function slugify(value) {
 		.replace(/(^-|-$)/g, '');
 }
 
+function getBedroomKey(value) {
+	const key = (value || '').toLowerCase().replace(/\s+/g, '');
+	if (key.includes('1br') || key.includes('1bed')) return '1br';
+	if (key.includes('2br') || key.includes('2bed')) return '2br';
+	if (key.includes('3br') || key.includes('3bed')) return '3br';
+	if (key.includes('4br') || key.includes('4bed')) return '4br';
+	return 'other';
+}
+
 export default function OctoberProjectDetails() {
 	const { slug } = useParams();
 	const projects = Array.isArray(octoberData?.projects) ? octoberData.projects : [];
@@ -68,6 +84,17 @@ export default function OctoberProjectDetails() {
 
 	const landmarks = project.location?.nearby_landmarks || [];
 	const distances = project.location?.distance_to_landmarks_minutes || {};
+	const unitPriceBreakdown = Array.isArray(project.unit_price_breakdown) ? project.unit_price_breakdown : [];
+	const formatUnitType = (value) => {
+		const key = (value || '').toLowerCase();
+		return bedroomLabels[key] || value || '';
+	};
+	const groupedUnits = unitPriceBreakdown.reduce((acc, item) => {
+		const key = getBedroomKey(item.unit_type);
+		acc[key] = acc[key] || [];
+		acc[key].push(item);
+		return acc;
+	}, {});
 
 	return (
 		<div className="min-h-screen bg-slate-950 text-white">
@@ -216,6 +243,42 @@ export default function OctoberProjectDetails() {
 											</span>
 										))}
 									</div>
+								</div>
+							) : null}
+
+							{unitPriceBreakdown.length ? (
+								<div className="space-y-3">
+									<p className="text-sm font-semibold text-white">تفاصيل أسعار الوحدات</p>
+									{['1br', '2br', '3br', '4br', 'other'].map((groupKey) => {
+										const items = groupedUnits[groupKey] || [];
+										if (!items.length) return null;
+										const groupLabel = bedroomLabels[groupKey] || 'وحدات أخرى';
+										return (
+											<div key={groupKey} className="space-y-2">
+												<p className="text-xs font-semibold text-white/80">{groupLabel}</p>
+												<div className="grid gap-2 sm:grid-cols-2">
+													{items.map((item, idx) => {
+														const labelParts = [
+															item.variant,
+															item.area_sqm ? `${areaFormatter.format(item.area_sqm)} م²` : '',
+														]
+															.filter(Boolean)
+															.join(' • ');
+														return (
+															<div
+																key={`${project.name}-${groupKey}-unit-${idx}`}
+																className="rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-white/70 shadow-inner shadow-black/20"
+															>
+																<p className="font-semibold text-white">{labelParts || formatUnitType(item.unit_type) || 'وحدة'}</p>
+																<p className="text-amber-200">{formatEgp(item.price_egp)}</p>
+																{item.notes ? <p className="mt-1 text-[11px] text-white/60">{item.notes}</p> : null}
+															</div>
+														);
+													})}
+												</div>
+											</div>
+										);
+									})}
 								</div>
 							) : null}
 						</div>
